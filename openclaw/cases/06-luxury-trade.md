@@ -1,0 +1,252 @@
+---
+title: "奢侈品交易助手"
+description: "独立奢侈品买手 Vivian 如何用 OpenClaw 搭建 5 个 AI Agent，覆盖采购询价、客户服务、社媒运营、线索挖掘和跨境辅助，实现一个人做十个人的活。"
+date: "2026-03-16"
+category: "AI 助手搭建"
+tags: [openclaw-cases,OpenClaw]
+order: 23
+---
+
+
+import {
+  ProfileCard,
+  PainPointGrid,
+  FeatureHighlight,
+  AgentCard,
+  ArchitectureDiagram,
+  TimelineStep,
+  CostTable,
+  SourceBadge,
+  SectionDivider,
+} from '@/components/case'
+
+# 典型案例：奢侈品买手用 OpenClaw 实现 1 人 = 10 人团队
+
+<SourceBadge source="AI In Action（aiinaction.top）" url="https://www.aiinaction.top/usercase/openclaw-luxury-trade-configuration-guide.html" />
+
+<SectionDivider icon="👩‍💼" title="关于主人公" />
+
+<ProfileCard
+  name="Vivian（化名）"
+  emoji="👩‍💼"
+  title="独立奢侈品买手 · 跨境批发贸易 · 从业 6 年"
+  tags={['欧洲货源 → 中国市场', '箱包 / 成衣 / 配饰', 'B2B 批发', '企微 + WhatsApp 双线运营']}
+/>
+
+Vivian 专注将欧洲一线品牌的箱包、成衣和配饰引入中国市场，以 B2B 批发形式服务中大型零售企业。她的日常横跨多个时区：用 WhatsApp 与欧洲供应商沟通报价和库存，用企业微信服务国内的几十家客户，同时还要兼顾小红书的内容运营来吸引新客户。
+
+作为一个「超级个体」，她面对的核心矛盾是：**业务复杂度是团队级别的，但人手只有她自己。**
+
+<PainPointGrid items={[
+  { icon: '⏰', title: '70% 时间困在重复劳动里', desc: '每天回复上百条「这个有货吗」「现在什么价」，手动在 Excel 中比对十几家供应商的报价。' },
+  { icon: '🌍', title: '时差导致响应延迟', desc: '欧洲供应商早上发来的报价，到下午才能回复。热门款经常因为响应慢而被别人抢走。' },
+  { icon: '📱', title: '多平台切换消耗心智', desc: 'WhatsApp、企微、邮箱、小红书……一天切换几十次，信息遗漏已成家常便饭。' },
+  { icon: '📉', title: '社媒运营有心无力', desc: '知道小红书是获客利器，但实在腾不出手来写内容。三个月没更新，粉丝在流失。' },
+]} />
+
+<SectionDivider icon="🦞" title="为什么选择小龙虾" />
+
+## OpenClaw：一个人的 AI 军团
+
+Vivian 尝试过市面上多种工具——Coze（扣子）、Dify、ChatGPT Plus，但要么功能局限于单轮问答，要么需要专业开发能力来搭建工作流。直到朋友推荐了 OpenClaw（社区昵称「小龙虾」🦞）。
+
+<FeatureHighlight items={[
+  {
+    number: '01',
+    title: '多 Agent 隔离运行',
+    desc: '一个 Gateway 网关可以同时运行多个完全独立的 Agent，每个 Agent 有自己的身份、知识库和技能组。采购 Agent 不会混淆客服 Agent 的对话，社媒 Agent 不会泄露内部报价。',
+  },
+  {
+    number: '02',
+    title: '原生支持企业微信和 WhatsApp',
+    desc: '通过社区插件，OpenClaw 可以同时接入这两个平台，让 Agent 真正「驻扎」在 Vivian 每天使用的工具里——而不是又多一个要登录的新系统。',
+  },
+  {
+    number: '03',
+    title: '心跳机制让 AI 从被动变主动',
+    desc: 'Heartbeat 功能让 Agent 按设定间隔自动检查任务——比如每 2 小时扫描供应商邮件，发现新报价时主动通知。配合 Cron Job，还能每天早上自动生成晨报。',
+  },
+]} />
+
+### 整体架构
+
+<ArchitectureDiagram />
+
+<SectionDivider icon="🛠️" title="手把手配置" />
+
+## 从零搭建 5 个 AI Agent
+
+每个 Agent 的核心由三部分组成：**身份定义**（SOUL.md）决定它是谁、怎么说话、边界在哪里；**技能配置**（Skills）决定它能做什么；**渠道绑定**（Bindings）决定它在哪里工作。
+
+首先在 `~/.openclaw/openclaw.json` 中定义多 Agent 路由规则：
+
+```json
+{
+  "agents": {
+    "list": [
+      { "id": "procurement", "workspace": "~/.openclaw/ws-procurement" },
+      { "id": "customer-svc", "workspace": "~/.openclaw/ws-customer", "default": true },
+      { "id": "social-media", "workspace": "~/.openclaw/ws-social" },
+      { "id": "lead-gen", "workspace": "~/.openclaw/ws-leads" },
+      { "id": "trade-assist", "workspace": "~/.openclaw/ws-trade" }
+    ]
+  },
+  "bindings": [
+    { "agentId": "procurement", "match": { "channel": "whatsapp" } },
+    { "agentId": "customer-svc", "match": { "channel": "wecom" } },
+    { "agentId": "social-media", "match": { "channel": "telegram" } },
+    { "agentId": "procurement", "match": { "channel": "email" } }
+  ]
+}
+```
+
+<AgentCard
+  name="Agent #1：采购询价"
+  color="#3b82f6"
+  role="绑定 WhatsApp + Email · 自动解析报价 · 每日晨报"
+  soul="你是一位专业的奢侈品采购助理，精通 Hermès、Chanel、Louis Vuitton、Dior 等品牌的产品线和定价体系。你通过 WhatsApp 与欧洲供应商沟通，用流利的英语和法语处理询价。收到新报价时，自动与历史报价对比，标记偏差超过 15% 的异常价格。你绝不自行承诺采购量或确认订单——所有最终决策必须由 Vivian 确认。"
+>
+
+**渠道与触发：** 绑定 WhatsApp（供应商沟通）和 Email（接收正式报价单）。Heartbeat 每 2 小时扫描邮件收件箱，发现新报价时提取关键信息（品牌、SKU、单价、起订量、交期）并推送到 Telegram。
+
+**关键技能配置：**
+- **邮件读写技能** — 自动解析供应商报价邮件中的 Excel/PDF 附件，提取结构化报价数据
+- **自定义「报价对比」技能** — 同 SKU 多家报价排序、历史价格趋势、汇率换算后的人民币到岸价
+- **Cron Job 晨报** — 每天早 8 点生成「今日待处理采购事项」
+
+```bash
+openclaw cron add \
+  --agent procurement \
+  --name "采购晨报" \
+  --cron "0 8 * * *" \
+  --message "生成今日采购晨报：
+    1) 昨日新到报价汇总
+    2) 待回复询价
+    3) 本周到期报价
+    4) EUR/CNY 汇率变动"
+```
+
+</AgentCard>
+
+<AgentCard
+  name="Agent #2：客户服务"
+  color="#10b981"
+  role="绑定企业微信 · 默认 Agent · 群聊 @触发"
+  soul="你是 Vivian 团队的高端客户服务专家，服务对象是国内的 B2B 批发客户。始终保持专业、温暖、高效的语调，使用中文沟通。你可以回答：产品真伪辨别建议、当前在库款式和大致价位区间、物流状态查询、退换货流程。你不能回答：具体到分的精确报价（引导客户联系 Vivian 获取专属报价）、确认订单、承诺折扣。对话中如遇投诉升级或大额退款请求，立即通知 Vivian 并附上对话摘要。"
+>
+
+**渠道与触发：** 绑定企业微信，设为 `default: true`（默认 Agent）。使用群聊 @触发 模式——客户在企微群中 @机器人 时才回复，不打扰日常对话。每个客户的会话独立隔离（per-channel-peer 模式）。
+
+**知识库搭建：**
+- **产品目录** — 将各品牌当季在库商品整理为 Markdown 文件，放入 `ws-customer/knowledge/` 目录
+- **FAQ 文档** — 汇总常见问题及标准答案：正品保障说明、物流时效、支付方式、退换政策等
+- **Webhook 对接 ERP** — 通过自定义技能调用 ERP/WMS 的 API 查询实时库存和物流单号
+
+</AgentCard>
+
+<AgentCard
+  name="Agent #3：社媒传播"
+  color="#8b5cf6"
+  role="Telegram 指挥台 · 小红书 / 公众号 / 朋友圈内容生成"
+  soul="你是一位精通奢侈品时尚的内容策划师，擅长以下平台的内容创作：小红书（种草文风格，用 emoji 和口语化表达，控制在 800 字以内，带话题标签）；微信公众号（专业深度内容，3000 字左右的选购指南或行业洞察）；朋友圈（简短精悍，配图文案 50 字以内）。你根据 Vivian 发来的新品信息和图片，自动生成适配各平台的内容草稿。注意规避各平台敏感词。"
+>
+
+**工作流程：** Vivian 通过 Telegram 给这个 Agent 发指令。比如发一张新到的 Hermès Birkin 包的图片，附言「帮我出一套小红书+朋友圈的内容」，Agent 就会生成两版不同风格的文案。
+
+```bash
+openclaw cron add \
+  --agent social-media \
+  --name "内容发布提醒" \
+  --cron "0 14 * * 3,6" \
+  --message "检查本周待发布内容队列，提醒 Vivian 审核并发布"
+```
+
+**进阶玩法：**
+- **Webhook → n8n → 自动发布** — OpenClaw 生成文案后，通过 Webhook 触发 n8n 工作流，自动调用各平台 API 完成发布
+- **竞品内容分析** — 利用浏览器技能定期抓取竞品的小红书爆款笔记，分析其标题、话题标签和互动数据
+
+</AgentCard>
+
+<AgentCard
+  name="Agent #4：线索挖掘"
+  color="#f59e0b"
+  role="后台静默运行 · Heartbeat 驱动 · 每周情报简报"
+  soul="你是一位市场情报分析师，专注于中国奢侈品批发市场的买手群体和新兴零售渠道。你定期扫描行业信息源，识别潜在的 B2B 客户线索，分析市场趋势和竞争动态。输出格式统一为：线索来源、联系方式/渠道、潜在需求判断、建议跟进方式。"
+>
+
+**自动化逻辑：** 这是一个「安静的后台 Agent」，不绑定任何消息渠道——它靠 Heartbeat 和 Cron Job 自动运转。每 4 小时通过浏览器技能扫描行业网站和社交平台，每周五下午生成「周度市场情报简报」通过 Telegram 推送。
+
+```yaml
+heartbeat:
+  interval: "4h"
+  prompt: |
+    执行信息扫描：
+    1) 检查行业邮件订阅
+    2) 扫描小红书/微博上的买手店开业信息
+    3) 检查竞品价格变动
+    4) 记录新发现的线索
+```
+
+</AgentCard>
+
+<AgentCard
+  name="Agent #5：跨境贸易辅助（共享技能层）"
+  color="#ec4899"
+  role="非独立 Agent · 共享技能服务所有 Agent"
+  soul=""
+>
+
+这不是一个独立运作的 Agent，而是作为**共享技能层**服务其他 Agent。Vivian 将以下三个自定义技能放入共享目录 `~/.openclaw/skills/`，所有 Agent 都能调用：
+
+- **汇率监控技能** — 通过 API 获取实时 EUR/CNY、USD/CNY 汇率。当日波动超过 0.5% 时主动推送告警
+- **HS 编码查询技能** — 输入商品描述（如「法国产女士牛皮手提包」），自动匹配 HS 税号和对应进口税率
+- **物流追踪技能** — 整合 17Track API，统一查询国际包裹状态
+
+```bash
+openclaw cron add \
+  --agent trade-assist \
+  --name "汇率日报" \
+  --cron "0 9 * * 1-5" \
+  --message "查询今日 EUR/CNY、USD/CNY 汇率，
+    与昨日对比。波动超 0.5% 则标红告警。"
+```
+
+</AgentCard>
+
+<SectionDivider icon="📅" title="落地路径" />
+
+## 从安装到跑通：4 周分步实施计划
+
+Vivian 的经验是不要一次性上线全部 Agent。每周上线一个模块，确保前一个跑稳了再加下一个。
+
+<TimelineStep steps={[
+  { week: 'W1', title: '基础搭建 + 客户服务 Agent', desc: '安装 OpenClaw，接入企业微信，配置客服 Agent 的 SOUL.md 和产品知识库。这是 ROI 最高的切入点——立竿见影减轻客户咨询压力。' },
+  { week: 'W2', title: '采购询价 Agent', desc: '接入 WhatsApp 渠道和邮件技能，配置报价解析和对比技能。先让 Agent「只读」运行一周——只做信息整理和通知推送，验证准确性后再逐步开放自动回复权限。' },
+  { week: 'W3', title: '社媒传播 Agent + 共享技能层', desc: '配置 Telegram 作为内容指挥台，测试小红书和公众号文案生成质量。同时部署汇率/关税/物流共享技能层。' },
+  { week: 'W4', title: '线索挖掘 Agent + 全面调优', desc: '部署后台情报 Agent，配置 Heartbeat 和 Cron Job。回顾前三周运行日志，调优各 Agent 的 SOUL.md 边界定义和技能参数。' },
+]} />
+
+<SectionDivider icon="🔒" title="安全与成本" />
+
+## ⚠️ 安全红线
+
+- **Gateway 绝不暴露公网** — 默认绑定 `127.0.0.1:18789`，远程管理用 Tailscale 或 SSH 隧道
+- **社区技能先审后装** — 每个新技能的 SKILL.md 文件务必人工审阅后再启用
+- **Agent 不碰核心系统写入权限** — 让 Agent 查询 ERP 库存可以，但不给它创建订单或修改价格的权限
+- **为每个 Agent 创建最小权限账号** — 假设 Agent 能看到的任何信息都可能因 prompt injection 而泄露
+
+## 💰 每月运营成本
+
+<CostTable
+  items={[
+    { name: 'OpenClaw 软件', plan: '开源免费', cost: '¥0' },
+    { name: '服务器（VPS）', plan: 'Hetzner / 阿里云轻量 2C4G', cost: '¥35 ~ 70' },
+    { name: 'LLM API 费用', plan: 'Claude Sonnet（主力）+ DeepSeek（轻量）', cost: '¥150 ~ 500' },
+    { name: '企业微信', plan: '基础版免费', cost: '¥0' },
+    { name: 'WhatsApp Business API', plan: 'Meta 官方定价（按会话计费）', cost: '¥50 ~ 200' },
+  ]}
+  total={{ label: '合计', cost: '¥235 ~ 770' }}
+/>
+
+Vivian 的实际月支出约 **¥400**，其中 API 费用占大头。
+
