@@ -2,7 +2,7 @@
 title: "企业微信接入"
 description: "OpenClaw 接入企业微信教程：从管理后台创建应用到消息收发配置，合规稳定的微信生态 AI 助手方案。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-channels,OpenClaw]
 order: 9
 ---

@@ -2,7 +2,7 @@
 title: "安全实践"
 description: "OpenClaw 极简安全实践指南：面向 Root 权限场景的安全框架，涵盖行为层黑名单、安全审计协议、哈希基线、业务风控、自动巡检与灾备方案。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-expert,openclaw-security,OpenClaw]
 order: 27
 ---

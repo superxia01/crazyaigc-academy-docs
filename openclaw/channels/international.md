@@ -2,7 +2,7 @@
 title: "国际平台接入"
 description: "OpenClaw 接入 WhatsApp、Telegram、Discord 的完整教程，包括扫码配对、Bot Token 配置和频道权限设置。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-channels,OpenClaw]
 order: 6
 ---

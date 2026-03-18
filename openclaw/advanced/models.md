@@ -2,7 +2,7 @@
 title: "模型配置与切换"
 description: "OpenClaw 模型配置教程：接入多个 AI 模型提供商，配置优先级链和回退机制，运行时动态切换模型。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-advanced,OpenClaw]
 order: 14
 ---

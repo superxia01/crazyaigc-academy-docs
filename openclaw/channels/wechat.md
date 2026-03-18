@@ -2,7 +2,7 @@
 title: "微信接入"
 description: "OpenClaw 微信个人号接入方案分析：可行性评估、风险对比与替代方案推荐，帮你做出合理的接入选择。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-channels,OpenClaw,wechat]
 order: 11
 ---

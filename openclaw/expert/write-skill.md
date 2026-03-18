@@ -2,7 +2,7 @@
 title: "开发 Skill"
 description: "OpenClaw Skill 开发教程：从零创建、测试和发布自定义技能，以天气查询为完整示例，含目录结构和 API 详解。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-expert,OpenClaw]
 order: 25
 ---

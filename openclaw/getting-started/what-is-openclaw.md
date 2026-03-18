@@ -2,7 +2,7 @@
 title: "OpenClaw 是什么"
 description: "OpenClaw 是什么？了解这款开源 AI 助手框架的核心概念、架构设计和适用场景，开始构建你的私人 AI 助手。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-getting-started,OpenClaw]
 order: 1
 ---

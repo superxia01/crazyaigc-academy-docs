@@ -2,7 +2,7 @@
 title: "沙箱模式深入"
 description: "OpenClaw 沙箱安全教程：深入理解执行环境隔离机制，包括沙箱模式配置、Docker 镜像选择和安全最佳实践。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-expert,OpenClaw]
 order: 26
 ---

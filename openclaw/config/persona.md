@@ -2,7 +2,7 @@
 title: "打造 AI 人设"
 description: "OpenClaw 人格定制教程：通过 SOUL.md、AGENTS.md 等工作空间文件定义 AI 助手的人格、行为模式和工作方式。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-config,OpenClaw]
 order: 5
 ---

@@ -2,7 +2,7 @@
 title: "多 Agent 架构"
 description: "OpenClaw 多 Agent 教程：在同一个 Gateway 运行多个 AI 人格，通过路由规则分配渠道和用户，实现工作生活分离。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-cases,openclaw-multi-agent,OpenClaw]
 order: 19
 ---

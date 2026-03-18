@@ -2,7 +2,7 @@
 title: "社区精选案例"
 description: "OpenClaw 社区案例合集：29+ 个创意用例，涵盖社交媒体、生产力、基础设施、创意构建和研究学习五大领域。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-expert,OpenClaw]
 order: 28
 ---

@@ -2,7 +2,7 @@
 title: "记忆系统"
 description: "OpenClaw 记忆系统教程：配置短期记忆、长期记忆和语义搜索，让 AI 助手不再失忆，实现跨会话的信息延续。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-advanced,openclaw-memory,OpenClaw]
 order: 13
 ---

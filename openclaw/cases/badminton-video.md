@@ -2,7 +2,7 @@
 title: "羽毛球视频分析"
 description: "OpenClaw 实战案例：用 AI 分析羽毛球比赛视频，自动识别关键回合、标注决策失误、解读暂停策略，并将分析报告推送到飞书。从零搭建完整系统的全过程记录。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-cases,OpenClaw]
 order: 24
 ---

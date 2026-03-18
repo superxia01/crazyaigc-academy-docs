@@ -2,7 +2,7 @@
 title: "浏览器自动化"
 description: "OpenClaw 浏览器自动化教程：使用 browser 工具实现网页操作，包括打开页面、填表、截图、信息提取等实战案例。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-cases,OpenClaw]
 order: 21
 ---

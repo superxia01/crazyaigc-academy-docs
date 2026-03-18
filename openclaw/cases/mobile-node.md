@@ -2,7 +2,7 @@
 title: "手机远程控制"
 description: "OpenClaw 手机 Node 教程：配对 iOS/Android 设备实现远程拍照、屏幕录制、位置获取和 Canvas 画布等功能。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-cases,OpenClaw]
 order: 22
 ---

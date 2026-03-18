@@ -2,7 +2,7 @@
 title: "奢侈品交易助手"
 description: "独立奢侈品买手 Vivian 如何用 OpenClaw 搭建 5 个 AI Agent，覆盖采购询价、客户服务、社媒运营、线索挖掘和跨境辅助，实现一个人做十个人的活。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-cases,OpenClaw]
 order: 23
 ---

@@ -2,7 +2,7 @@
 title: "配置文件详解"
 description: "OpenClaw 配置文件完全指南：openclaw.json 的每个配置项详细说明，包括模型、渠道、技能和安全配置的最佳实践。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-config,OpenClaw]
 order: 4
 ---

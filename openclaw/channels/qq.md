@@ -2,7 +2,7 @@
 title: "QQ 机器人接入"
 description: "OpenClaw 接入 QQ 机器人教程：通过 QQ 开放平台官方 Bot API 接入，安全合规地部署你的 QQ AI 助手。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-channels,OpenClaw]
 order: 10
 ---

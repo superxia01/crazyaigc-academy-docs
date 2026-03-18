@@ -2,7 +2,7 @@
 title: "语音交互"
 description: "OpenClaw 语音功能教程：配置语音唤醒词、连续语音对话和高质量 TTS 语音合成，打造完整的语音交互体验。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-advanced,OpenClaw]
 order: 17
 ---

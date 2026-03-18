@@ -2,7 +2,7 @@
 title: "安全加固"
 description: "OpenClaw 安全配置指南：从 DM 访问控制到工具沙箱，多层安全机制配置与最佳实践，构建安全可靠的 AI 代理系统。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-advanced,openclaw-security,OpenClaw]
 order: 16
 ---

@@ -2,7 +2,7 @@
 title: "飞书接入"
 description: "OpenClaw 接入飞书教程：从开放平台创建应用到 WebSocket 长连接配置，无需公网 IP，手把手完成飞书机器人部署。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-channels,OpenClaw]
 order: 7
 ---

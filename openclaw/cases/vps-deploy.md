@@ -2,7 +2,7 @@
 title: "VPS + Docker 搭建"
 description: "OpenClaw VPS 部署教程：手把手在云服务器上用 Docker 部署 OpenClaw，打造 7×24 小时在线的 AI 助手，含服务器选购建议。"
 date: "2026-03-16"
-category: "AI 助手搭建"
+category: "OpenClaw实操指南"
 tags: [openclaw-cases,OpenClaw]
 order: 18
 ---
