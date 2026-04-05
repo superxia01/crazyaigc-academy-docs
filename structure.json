@@ -1,0 +1,361 @@
+[
+  {
+    "title": "入门指南",
+    "path": "introduction",
+    "children": [
+      { "title": "快速开始", "path": "introduction/getting-started" },
+      { "title": "AI 基础", "path": "introduction/ai-basics" },
+      { "title": "设置指南", "path": "introduction/setup-guide" }
+    ]
+  },
+  {
+    "title": "AI 工具指南",
+    "path": "ai-tools",
+    "children": [
+      { "title": "ChatGPT 指南", "path": "ai-tools/chatgpt-guide" }
+    ]
+  },
+  {
+    "title": "底层基石与交互法则",
+    "path": "foundation",
+    "children": [
+      {
+        "title": "AI 基础通识与边界",
+        "path": "foundation/a1-basics",
+        "children": [
+          { "title": "AI 能力边界洞察", "path": "foundation/a1-basics/capability-boundaries" },
+          { "title": "主流工具阵营划分", "path": "foundation/a1-basics/tool-ecosystems" },
+          { "title": "合规与版权避坑", "path": "foundation/a1-basics/compliance-copyright" },
+          { "title": "各岗位降本增效测算模型", "path": "foundation/a1-basics/roi-calculation" },
+          { "title": "适配场景筛选", "path": "foundation/a1-basics/scenario-screening" },
+          { "title": "个人/团队 AI 工作流搭建", "path": "foundation/a1-basics/workflow-setup" }
+        ]
+      },
+      {
+        "title": "提示词工程专家模式",
+        "path": "foundation/a2-prompt",
+        "children": [
+          { "title": "精准指令句式", "path": "foundation/a2-prompt/precise-command" },
+          { "title": "不同场景提示词适配技巧", "path": "foundation/a2-prompt/scenario-adaptation" },
+          { "title": "少样本学习高阶玩法", "path": "foundation/a2-prompt/few-shot-learning" },
+          { "title": "思维链提示技巧", "path": "foundation/a2-prompt/cot-techniques" },
+          { "title": "结构化输出控制", "path": "foundation/a2-prompt/structured-output" },
+          { "title": "提示词优化与迭代", "path": "foundation/a2-prompt/prompt-optimization" },
+          { "title": "行业专属提示词模板", "path": "foundation/a2-prompt/industry-prompts" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "办公效率与内容创作",
+    "path": "productivity",
+    "children": [
+      {
+        "title": "办公效率与内容创作",
+        "path": "productivity/b1-office",
+        "children": [
+          { "title": "主流办公 AI 工具", "path": "productivity/b1-office/office-tools" },
+          { "title": "行政/人事效率化", "path": "productivity/b1-office/admin-hr-efficiency" },
+          { "title": "财务与数据整理", "path": "productivity/b1-office/finance-data" },
+          { "title": "通用场景", "path": "productivity/b1-office/general-scenarios" },
+          { "title": "汇报与演示", "path": "productivity/b1-office/report-presentation" },
+          { "title": "邮件类", "path": "productivity/b1-office/email-tasks" },
+          { "title": "内容创作", "path": "productivity/b1-office/content-creation" }
+        ]
+      },
+      {
+        "title": "销售、客服与外贸获客",
+        "path": "productivity/b2-sales",
+        "children": [
+          { "title": "销售话术", "path": "productivity/b2-sales/sales-scripts" },
+          { "title": "客服话术", "path": "productivity/b2-sales/service-scripts" },
+          { "title": "客户分析", "path": "productivity/b2-sales/customer-analysis" },
+          { "title": "外贸专属", "path": "productivity/b2-sales/trade-specific" },
+          { "title": "社媒获客", "path": "productivity/b2-sales/social-leads" }
+        ]
+      },
+      {
+        "title": "数据分析与决策辅助",
+        "path": "productivity/b3-analytics",
+        "children": [
+          { "title": "数据解读", "path": "productivity/b3-analytics/data-interpretation" },
+          { "title": "数据处理", "path": "productivity/b3-analytics/data-processing" },
+          { "title": "报告生成", "path": "productivity/b3-analytics/report-generation" },
+          { "title": "趋势预测", "path": "productivity/b3-analytics/trend-prediction" },
+          { "title": "可视化", "path": "productivity/b3-analytics/visualization" },
+          { "title": "安全合规", "path": "productivity/b3-analytics/security-compliance" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "视觉生成与多媒体创作",
+    "path": "creative",
+    "children": [
+      {
+        "title": "AI 视觉通识与精准控图",
+        "path": "creative/c1-visual-basics",
+        "children": [
+          { "title": "视觉工具阵营", "path": "creative/c1-visual-basics/visual-tools" },
+          { "title": "精准画面指令", "path": "creative/c1-visual-basics/precise-control" },
+          { "title": "图生图高阶玩法", "path": "creative/c1-visual-basics/image-editing" },
+          { "title": "一致性保持", "path": "creative/c1-visual-basics/consistency" },
+          { "title": "视觉微调", "path": "creative/c1-visual-basics/visual-tuning" },
+          { "title": "商业版权避坑指南", "path": "creative/c1-visual-basics/copyright-guide" }
+        ]
+      },
+      {
+        "title": "电商视觉与营销提效",
+        "path": "creative/c2-ecommerce",
+        "children": [
+          { "title": "场景秒变技术", "path": "creative/c2-ecommerce/scene-variation" },
+          { "title": "知识产权规避", "path": "creative/c2-ecommerce/ip-avoidance" },
+          { "title": "全球审美适配", "path": "creative/c2-ecommerce/global-aesthetics" },
+          { "title": "批量视觉产出", "path": "creative/c2-ecommerce/batch-production" }
+        ]
+      },
+      {
+        "title": "短视频制作与影音合成",
+        "path": "creative/c3-video",
+        "children": [
+          { "title": "脚本与分镜拆解", "path": "creative/c3-video/script-breakdown" },
+          { "title": "视频改编全链路实操", "path": "creative/c3-video/video-production" },
+          { "title": "动态镜头控制", "path": "creative/c3-video/dynamic-control" },
+          { "title": "逼真配音与口播", "path": "creative/c3-video/voice-acting" },
+          { "title": "爆款短视频生成", "path": "creative/c3-video/viral-generation" },
+          { "title": "商业水平提升", "path": "creative/c3-video/professional-level" }
+        ]
+      },
+      {
+        "title": "品牌 IP 打造与专属模型",
+        "path": "creative/c4-branding",
+        "children": [
+          { "title": "IP 形象", "path": "creative/c4-branding/ip-image" },
+          { "title": "专属模型训练", "path": "creative/c4-branding/custom-model" },
+          { "title": "视觉包装", "path": "creative/c4-branding/visual-packaging" },
+          { "title": "工业设计", "path": "creative/c4-branding/industrial-design" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "全平台自媒体运营",
+    "path": "social-media",
+    "children": [
+      {
+        "title": "全平台机制与账号定位",
+        "path": "social-media/s1-mechanism",
+        "children": [
+          { "title": "平台机制", "path": "social-media/s1-mechanism/platform-mechanics" },
+          { "title": "账号定位", "path": "social-media/s1-mechanism/account-positioning" },
+          { "title": "选题矩阵", "path": "social-media/s1-mechanism/topic-matrix" },
+          { "title": "AI 深度结合", "path": "social-media/s1-mechanism/ai-integration" }
+        ]
+      },
+      {
+        "title": "爆款内容矩阵创作",
+        "path": "social-media/s2-content",
+        "children": [
+          { "title": "选题策略", "path": "social-media/s2-content/topic-strategy" },
+          { "title": "全案创作", "path": "social-media/s2-content/full-production" },
+          { "title": "批量提效", "path": "social-media/s2-content/batch-efficiency" }
+        ]
+      },
+      {
+        "title": "流量变现与私域转化",
+        "path": "social-media/s3-monetization",
+        "children": [
+          { "title": "运营闭环", "path": "social-media/s3-monetization/operation-loop" },
+          { "title": "AI 赋能", "path": "social-media/s3-monetization/ai-empowerment" },
+          { "title": "私域转化", "path": "social-media/s3-monetization/private-conversion" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "跨境电商全链路运营",
+    "path": "cross-border",
+    "children": [
+      {
+        "title": "市场分析与店铺基建",
+        "path": "cross-border/k1-market",
+        "children": [
+          { "title": "选品逻辑", "path": "cross-border/k1-market/product-selection" },
+          { "title": "店铺起步", "path": "cross-border/k1-market/store-setup" },
+          { "title": "AI 赋能", "path": "cross-border/k1-market/ai-empowerment" },
+          { "title": "AI 数据挖掘", "path": "cross-border/k1-market/data-mining" }
+        ]
+      },
+      {
+        "title": "营销推广与流量获取",
+        "path": "cross-border/k2-marketing",
+        "children": [
+          { "title": "投放实务", "path": "cross-border/k2-marketing/ad-practice" },
+          { "title": "内容获客", "path": "cross-border/k2-marketing/content-leads" },
+          { "title": "AI 自动化", "path": "cross-border/k2-marketing/ai-automation" },
+          { "title": "达人营销建联", "path": "cross-border/k2-marketing/kol-partnership" }
+        ]
+      },
+      {
+        "title": "全球服务与物流管理",
+        "path": "cross-border/k3-service",
+        "children": [
+          { "title": "供应链管理", "path": "cross-border/k3-service/supply-chain" },
+          { "title": "跨境闭环", "path": "cross-border/k3-service/cross-border-loop" },
+          { "title": "AI 赋能", "path": "cross-border/k3-service/ai-empowerment" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI 编程与自动化开发",
+    "path": "programming",
+    "children": [
+      {
+        "title": "快速建站与演示部署",
+        "path": "programming/p1-website",
+        "children": [
+          { "title": "实战建站", "path": "programming/p1-website/quick-website" },
+          { "title": "多端适配", "path": "programming/p1-website/multi-platform" },
+          { "title": "AI 赋能", "path": "programming/p1-website/ai-empowerment" }
+        ]
+      },
+      {
+        "title": "自动化脚本与数据采集",
+        "path": "programming/p2-automation",
+        "children": [
+          { "title": "提效利器", "path": "programming/p2-automation/efficiency-tools" },
+          { "title": "数据挖掘", "path": "programming/p2-automation/data-mining" },
+          { "title": "AI 赋能", "path": "programming/p2-automation/ai-empowerment" }
+        ]
+      },
+      {
+        "title": "功能开发与系统集成",
+        "path": "programming/p3-development",
+        "children": [
+          { "title": "开发辅助", "path": "programming/p3-development/dev-assistance" },
+          { "title": "系统逻辑", "path": "programming/p3-development/system-logic" },
+          { "title": "AI 赋能", "path": "programming/p3-development/ai-empowerment" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "企业落地与管理策略",
+    "path": "governance",
+    "children": [
+      {
+        "title": "企业 AI 落地与管理策略",
+        "path": "governance/g1-strategy",
+        "children": [
+          { "title": "企业 AI 落地的核心逻辑", "path": "governance/g1-strategy/core-logic" },
+          { "title": "各部门应用清单", "path": "governance/g1-strategy/department-checklist" },
+          { "title": "工具采购建议", "path": "governance/g1-strategy/tool-recommendations" },
+          { "title": "培训体系", "path": "governance/g1-strategy/training-system" },
+          { "title": "AI 落地避坑指南", "path": "governance/g1-strategy/pitfall-guide" },
+          { "title": "安全与知识库", "path": "governance/g1-strategy/security-knowledge" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "商业变现与行业插件",
+    "path": "monetization",
+    "children": [
+      {
+        "title": "商业项目实战与变现",
+        "path": "monetization/m1-business",
+        "children": [
+          { "title": "全流程跑通", "path": "monetization/m1-business/full-process" },
+          { "title": "需求沟通", "path": "monetization/m1-business/requirement-communication" },
+          { "title": "报价策略", "path": "monetization/m1-business/pricing-strategy" },
+          { "title": "合同规范", "path": "monetization/m1-business/contract-standards" },
+          { "title": "接单 SOP", "path": "monetization/m1-business/onboarding-sop" }
+        ]
+      },
+      {
+        "title": "行业实战落地",
+        "path": "monetization/m2-industry",
+        "children": [
+          { "title": "跨境/出海", "path": "monetization/m2-industry/cross-border" },
+          { "title": "硬件/制造", "path": "monetization/m2-industry/hardware" },
+          { "title": "快消/餐饮", "path": "monetization/m2-industry/fmcg" },
+          { "title": "影视/动漫", "path": "monetization/m2-industry/film-animation" },
+          { "title": "服务/教培", "path": "monetization/m2-industry/service-training" },
+          { "title": "行政/国企", "path": "monetization/m2-industry/admin-soe" },
+          { "title": "行业案例库", "path": "monetization/m2-industry/industry-cases" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "OpenClaw 实操指南",
+    "path": "openclaw",
+    "children": [
+      {
+        "title": "快速入门",
+        "path": "openclaw/getting-started",
+        "children": [
+          { "title": "什么是 OpenClaw", "path": "openclaw/getting-started/what-is-openclaw" },
+          { "title": "安装与部署", "path": "openclaw/getting-started/installation" },
+          { "title": "Gateway 基础", "path": "openclaw/getting-started/gateway-basics" }
+        ]
+      },
+      {
+        "title": "配置详解",
+        "path": "openclaw/config",
+        "children": [
+          { "title": "配置文件详解", "path": "openclaw/config/config-guide" },
+          { "title": "打造 AI 人设", "path": "openclaw/config/persona" }
+        ]
+      },
+      {
+        "title": "渠道接入",
+        "path": "openclaw/channels",
+        "children": [
+          { "title": "国际平台接入", "path": "openclaw/channels/international" },
+          { "title": "飞书接入", "path": "openclaw/channels/feishu" },
+          { "title": "钉钉接入", "path": "openclaw/channels/dingtalk" },
+          { "title": "企业微信接入", "path": "openclaw/channels/wecom" },
+          { "title": "QQ 机器人接入", "path": "openclaw/channels/qq" },
+          { "title": "微信接入", "path": "openclaw/channels/wechat" }
+        ]
+      },
+      {
+        "title": "进阶功能",
+        "path": "openclaw/advanced",
+        "children": [
+          { "title": "会话管理", "path": "openclaw/advanced/sessions" },
+          { "title": "记忆系统", "path": "openclaw/advanced/memory" },
+          { "title": "模型配置与切换", "path": "openclaw/advanced/models" },
+          { "title": "技能系统", "path": "openclaw/advanced/skills" },
+          { "title": "安全加固", "path": "openclaw/advanced/security" },
+          { "title": "语音交互", "path": "openclaw/advanced/voice" }
+        ]
+      },
+      {
+        "title": "实战案例",
+        "path": "openclaw/cases",
+        "children": [
+          { "title": "VPS + Docker 搭建", "path": "openclaw/cases/vps-deploy" },
+          { "title": "多 Agent 架构", "path": "openclaw/cases/multi-agent" },
+          { "title": "定时任务与提醒", "path": "openclaw/cases/cron-heartbeat" },
+          { "title": "浏览器自动化", "path": "openclaw/cases/browser-automation" },
+          { "title": "手机远程控制", "path": "openclaw/cases/mobile-node" },
+          { "title": "奢侈品交易助手", "path": "openclaw/cases/luxury-trade" },
+          { "title": "羽毛球视频分析", "path": "openclaw/cases/badminton-video" }
+        ]
+      },
+      {
+        "title": "专家进阶",
+        "path": "openclaw/expert",
+        "children": [
+          { "title": "开发 Skill", "path": "openclaw/expert/write-skill" },
+          { "title": "沙箱模式深入", "path": "openclaw/expert/sandboxing" },
+          { "title": "安全实践", "path": "openclaw/expert/security-practice" },
+          { "title": "社区精选案例", "path": "openclaw/expert/community-cases" }
+        ]
+      }
+    ]
+  }
+]
