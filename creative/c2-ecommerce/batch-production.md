@@ -3,7 +3,7 @@ title: "批量视觉产出：独立站、Instagram 广告素材批量生产、�
 description: "用 AI 实现电商视觉内容的批量生产，覆盖独立站 Banner、Instagram 广告素材、节日营销物料等场景，大幅提升内容产出效率。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning, ai-visual, ecommerce, batch]
+tags: [""academy"", ""learning"", ""ai-visual"", ""ecommerce"", ""batch""]
 order: 2
 ---
 

@@ -3,7 +3,7 @@ title: "安装与部署"
 description: "OpenClaw 安装教程：从环境准备到部署运行的完整指南，支持 npm 全局安装和 Docker 两种方式，5分钟快速上手。"
 date: "2026-03-16"
 category: "OpenClaw实操指南"
-tags: [openclaw-getting-started,OpenClaw]
+tags: [""openclaw-getting-started"", ""OpenClaw""]
 order: 2
 ---
 

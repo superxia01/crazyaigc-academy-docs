@@ -3,7 +3,7 @@ title: "视觉工具阵营：Nano Banana、Midjourney、ComfyUI 等工具优劣�
 description: "全面对比当前主流 AI 视觉生成工具——Midjourney、DALL·E 3、Stable Diffusion、ComfyUI、Ideogram 等，帮你根据使用场景选择最合适的工具。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning, ai-visual, tools]
+tags: [""academy"", ""learning"", ""ai-visual"", ""tools""]
 order: 1
 ---
 

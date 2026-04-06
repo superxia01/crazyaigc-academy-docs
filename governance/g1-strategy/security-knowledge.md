@@ -3,7 +3,7 @@ title: "安全与知识库：内部 AI 使用规范、数据安全制度、企�
 description: ""
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning]
+tags: [""academy"", ""learning""]
 order: 1
 ---
 

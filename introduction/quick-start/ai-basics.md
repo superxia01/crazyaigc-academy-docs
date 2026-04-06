@@ -3,7 +3,7 @@ title: "AI 基础"
 description: "深入了解 AI 的核心概念、工作原理和应用场景"
 date: "2024-03-15"
 category: "入门教程"
-tags: ["AI基础", "原理", "概念"]
+tags: [""AI基础"", ""原理"", ""概念""]
 order: 2
 ---
 

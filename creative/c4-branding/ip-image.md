@@ -3,7 +3,7 @@ title: "IP 形象：从 0 到 1 设计品牌专属 IP 形象"
 description: "用 AI 从零开始设计品牌 IP 形象的完整流程，涵盖概念发想、角色设计、多角度呈现和一致性维护，打造有辨识度的品牌 IP。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning, ai-visual, branding, ip]
+tags: [""academy"", ""learning"", ""ai-visual"", ""branding"", ""ip""]
 order: 1
 ---
 

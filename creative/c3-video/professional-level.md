@@ -3,7 +3,7 @@ title: "商业水平提升：TVC 级别视频剪辑、配乐与质感提升"
 description: "将 AI 生成的视频从「能看」提升到「商业级别」，掌握调色、配乐、剪辑节奏和质感提升的专业技巧。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning, ai-video, professional]
+tags: [""academy"", ""learning"", ""ai-video"", ""professional""]
 order: 5
 ---
 

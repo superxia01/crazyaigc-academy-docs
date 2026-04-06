@@ -3,7 +3,7 @@ title: "知识产权规避：保持产品主轮廓不变、微调细节以规避
 description: "面向电商卖家的 AI 视觉知识产权实操指南，重点讲解外观专利的规避策略、AI 辅助差异化设计的方法，以及合规检查流程。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning, ai-visual, ecommerce, ip]
+tags: [""academy"", ""learning"", ""ai-visual"", ""ecommerce"", ""ip""]
 order: 4
 ---
 

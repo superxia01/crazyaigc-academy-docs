@@ -3,7 +3,7 @@ title: "工业设计：构建产品三维概念图与工业设计草图"
 description: "用 AI 辅助工业设计，快速生成产品概念图、三维效果图和设计草图，加速从想法到可视化的过程。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [academy, learning, ai-visual, branding, industrial-design]
+tags: [""academy"", ""learning"", ""ai-visual"", ""branding"", ""industrial-design""]
 order: 3
 ---
 

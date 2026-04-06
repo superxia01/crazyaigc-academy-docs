@@ -3,7 +3,7 @@ title: "快速开始"
 description: "AI 学院入门指南，了解如何开始使用 AI 工具提升效率"
 date: "2024-03-15"
 category: "入门教程"
-tags: ["入门", "AI基础", "工具"]
+tags: [""入门"", ""AI基础"", ""工具""]
 order: 1
 ---
 

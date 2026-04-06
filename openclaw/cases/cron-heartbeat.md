@@ -3,7 +3,7 @@ title: "定时任务与提醒"
 description: "OpenClaw 定时任务教程：使用 Cron 和 Heartbeat 心跳机制实现自动化工作流，让 AI 助手主动执行任务和发送提醒。"
 date: "2026-03-16"
 category: "OpenClaw实操指南"
-tags: [openclaw-cases,OpenClaw]
+tags: [""openclaw-cases"", ""OpenClaw""]
 order: 20
 ---
 
