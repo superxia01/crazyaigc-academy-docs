@@ -4,7 +4,7 @@
     "path": "ai-tools",
     "children": [
       {
-        "title": "Main Tools",
+        "title": "主要工具",
         "path": "ai-tools/main-tools",
         "children": [
           {
@@ -20,7 +20,7 @@
     "path": "creative",
     "children": [
       {
-        "title": "C1 Visual Basics",
+        "title": "AI 视觉通识与精准控图",
         "path": "creative/c1-visual-basics",
         "children": [
           {
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "title": "C2 Ecommerce",
+        "title": "电商视觉与营销提效",
         "path": "creative/c2-ecommerce",
         "children": [
           {
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "title": "C3 Video",
+        "title": "短视频制作与影音合成",
         "path": "creative/c3-video",
         "children": [
           {
@@ -102,7 +102,7 @@
         ]
       },
       {
-        "title": "C4 Branding",
+        "title": "品牌 IP 打造与专属模型",
         "path": "creative/c4-branding",
         "children": [
           {
@@ -130,7 +130,7 @@
     "path": "cross-border",
     "children": [
       {
-        "title": "K1 Market",
+        "title": "市场分析与店铺基建",
         "path": "cross-border/k1-market",
         "children": [
           {
@@ -152,7 +152,7 @@
         ]
       },
       {
-        "title": "K2 Marketing",
+        "title": "营销推广与流量获取",
         "path": "cross-border/k2-marketing",
         "children": [
           {
@@ -174,7 +174,7 @@
         ]
       },
       {
-        "title": "K3 Service",
+        "title": "全球服务与物流管理",
         "path": "cross-border/k3-service",
         "children": [
           {
@@ -198,7 +198,7 @@
     "path": "foundation",
     "children": [
       {
-        "title": "A1 Basics",
+        "title": "AI 基础通识与边界",
         "path": "foundation/a1-basics",
         "children": [
           {
@@ -228,7 +228,7 @@
         ]
       },
       {
-        "title": "A2 Prompt",
+        "title": "提示词工程专家模式",
         "path": "foundation/a2-prompt",
         "children": [
           {
@@ -268,7 +268,7 @@
     "path": "governance",
     "children": [
       {
-        "title": "G1 Strategy",
+        "title": "企业 AI 落地与管理策略",
         "path": "governance/g1-strategy",
         "children": [
           {
@@ -304,7 +304,7 @@
     "path": "introduction",
     "children": [
       {
-        "title": "Quick Start",
+        "title": "快速开始",
         "path": "introduction/quick-start",
         "children": [
           {
@@ -328,7 +328,7 @@
     "path": "monetization",
     "children": [
       {
-        "title": "M1 Business",
+        "title": "商业项目实战与变现",
         "path": "monetization/m1-business",
         "children": [
           {
@@ -354,7 +354,7 @@
         ]
       },
       {
-        "title": "M2 Industry",
+        "title": "行业实战落地",
         "path": "monetization/m2-industry",
         "children": [
           {
@@ -394,7 +394,7 @@
     "path": "openclaw",
     "children": [
       {
-        "title": "Advanced",
+        "title": "进阶功能",
         "path": "openclaw/advanced",
         "children": [
           {
@@ -424,7 +424,7 @@
         ]
       },
       {
-        "title": "Cases",
+        "title": "实战案例",
         "path": "openclaw/cases",
         "children": [
           {
@@ -458,7 +458,7 @@
         ]
       },
       {
-        "title": "Channels",
+        "title": "渠道接入",
         "path": "openclaw/channels",
         "children": [
           {
@@ -488,7 +488,7 @@
         ]
       },
       {
-        "title": "Config",
+        "title": "配置详解",
         "path": "openclaw/config",
         "children": [
           {
@@ -502,7 +502,7 @@
         ]
       },
       {
-        "title": "Expert",
+        "title": "专家进阶",
         "path": "openclaw/expert",
         "children": [
           {
@@ -524,7 +524,7 @@
         ]
       },
       {
-        "title": "Getting Started",
+        "title": "快速入门",
         "path": "openclaw/getting-started",
         "children": [
           {
@@ -548,7 +548,7 @@
     "path": "productivity",
     "children": [
       {
-        "title": "B1 Office",
+        "title": "办公效率与内容创作",
         "path": "productivity/b1-office",
         "children": [
           {
@@ -582,7 +582,7 @@
         ]
       },
       {
-        "title": "B2 Sales",
+        "title": "销售、客服与外贸获客",
         "path": "productivity/b2-sales",
         "children": [
           {
@@ -608,7 +608,7 @@
         ]
       },
       {
-        "title": "B3 Analytics",
+        "title": "数据分析与决策辅助",
         "path": "productivity/b3-analytics",
         "children": [
           {
@@ -644,7 +644,7 @@
     "path": "programming",
     "children": [
       {
-        "title": "P1 Website",
+        "title": "快速建站与演示部署",
         "path": "programming/p1-website",
         "children": [
           {
@@ -662,7 +662,7 @@
         ]
       },
       {
-        "title": "P2 Automation",
+        "title": "自动化脚本与数据采集",
         "path": "programming/p2-automation",
         "children": [
           {
@@ -680,7 +680,7 @@
         ]
       },
       {
-        "title": "P3 Development",
+        "title": "功能开发与系统集成",
         "path": "programming/p3-development",
         "children": [
           {
@@ -700,16 +700,31 @@
     ]
   },
   {
-    "title": "Prompt Engineering",
+    "title": "提示词工程",
     "path": "prompt-engineering",
-    "children": []
+    "children": [
+      {
+        "title": "提示词基础",
+        "path": "prompt-engineering/basics",
+        "children": [
+          {
+            "title": "基础提示词",
+            "path": "prompt-engineering/basics/basic-prompts"
+          },
+          {
+            "title": "高级技巧",
+            "path": "prompt-engineering/basics/advanced-techniques"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "全平台自媒体运营",
     "path": "social-media",
     "children": [
       {
-        "title": "S1 Mechanism",
+        "title": "全平台机制与账号定位",
         "path": "social-media/s1-mechanism",
         "children": [
           {
@@ -731,7 +746,7 @@
         ]
       },
       {
-        "title": "S2 Content",
+        "title": "爆款内容矩阵创作",
         "path": "social-media/s2-content",
         "children": [
           {
@@ -749,7 +764,7 @@
         ]
       },
       {
-        "title": "S3 Monetization",
+        "title": "流量变现与私域转化",
         "path": "social-media/s3-monetization",
         "children": [
           {
