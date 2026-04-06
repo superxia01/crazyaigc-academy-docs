@@ -3,16 +3,28 @@
     "title": "入门指南",
     "path": "introduction",
     "children": [
-      { "title": "快速开始", "path": "introduction/getting-started" },
-      { "title": "AI 基础", "path": "introduction/ai-basics" },
-      { "title": "设置指南", "path": "introduction/setup-guide" }
+      {
+        "title": "快速入门",
+        "path": "introduction/quick-start",
+        "children": [
+          { "title": "快速开始", "path": "introduction/quick-start/getting-started" },
+          { "title": "AI 基础", "path": "introduction/quick-start/ai-basics" },
+          { "title": "设置指南", "path": "introduction/quick-start/setup-guide" }
+        ]
+      }
     ]
   },
   {
     "title": "AI 工具指南",
     "path": "ai-tools",
     "children": [
-      { "title": "ChatGPT 指南", "path": "ai-tools/chatgpt-guide" }
+      {
+        "title": "主流 AI 工具",
+        "path": "ai-tools/main-tools",
+        "children": [
+          { "title": "ChatGPT 指南", "path": "ai-tools/main-tools/chatgpt-guide" }
+        ]
+      }
     ]
   },
   {
@@ -51,7 +63,7 @@
     "path": "productivity",
     "children": [
       {
-        "title": "办公效率与内容创作",
+        "title": "办公效率提升",
         "path": "productivity/b1-office",
         "children": [
           { "title": "主流办公 AI 工具", "path": "productivity/b1-office/office-tools" },
