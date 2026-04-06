@@ -1,0 +1,136 @@
+name: Update Structure Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '!README.md'
+  workflow_dispatch:
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate structure.json
+        run: |
+          cat > generate_structure.py << 'PYTHON'
+          import os
+          import json
+          import re
+          from pathlib import Path
+
+          def extract_frontmatter(filepath):
+              """提取 Markdown 文件的 frontmatter"""
+              try:
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                  if not content.startswith('---'):
+                      return {}
+                  match = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+                  if not match:
+                      return {}
+                  frontmatter = {}
+                  for line in match.group(1).split('\n'):
+                      if ':' in line:
+                          key, value = line.split(':', 1)
+                          frontmatter[key.strip()] = value.strip().strip('"')
+                  return frontmatter
+              except:
+                  return {}
+
+          def load_category_names():
+              """加载中英文分类名映射"""
+              try:
+                  with open('config/categories.json', 'r', encoding='utf-8') as f:
+                      return json.load(f)
+              except:
+                  return {}
+
+          def build_structure():
+              """扫描所有 .md 文件并构建层级结构"""
+              category_names = load_category_names()
+              files_data = []
+
+              for md_file in sorted(Path('.').rglob('*.md')):
+                  if md_file.name.lower() == 'readme.md':
+                      continue
+                  rel_path = str(md_file.with_suffix(''))
+                  parts = rel_path.split('/')
+                  fm = extract_frontmatter(md_file)
+                  files_data.append({
+                      'path': rel_path,
+                      'title': fm.get('title', parts[-1] if parts else ''),
+                      'parts': parts,
+                      'depth': len(parts)
+                  })
+
+              result = []
+              top_dirs = sorted(set(f['parts'][0] for f in files_data if len(f['parts']) >= 1))
+
+              for top_dir in top_dirs:
+                  children = []
+                  second_dirs = sorted(set(
+                      f['parts'][1] for f in files_data
+                      if len(f['parts']) >= 2 and f['parts'][0] == top_dir
+                  ))
+
+                  for second_dir in second_dirs:
+                      items = [
+                          {'title': f['title'], 'path': f['path']}
+                          for f in files_data
+                          if len(f['parts']) >= 3 and f['parts'][0] == top_dir and f['parts'][1] == second_dir
+                      ]
+                      if items:
+                          children.append({
+                              'title': second_dir.replace('-', ' ').replace('_', ' ').title(),
+                              'path': f'{top_dir}/{second_dir}',
+                              'children': items
+                          })
+
+                  direct_items = [
+                      {'title': f['title'], 'path': f['path']}
+                      for f in files_data
+                      if len(f['parts']) == 1 and f['parts'][0] == top_dir
+                  ]
+
+                  # 使用中文分类名
+                  top_title = category_names.get(top_dir, top_dir.replace('-', ' ').replace('_', ' ').title())
+
+                  result.append({
+                      'title': top_title,
+                      'path': top_dir,
+                      'children': children + direct_items
+                  })
+
+              return result
+
+          if __name__ == '__main__':
+              structure = build_structure()
+              with open('structure.json', 'w', encoding='utf-8') as f:
+                  json.dump(structure, f, ensure_ascii=False, indent=2)
+              print(f"Generated structure.json with {len(structure)} top-level sections")
+          PYTHON
+
+          python generate_structure.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add structure.json
+          git diff --quiet --cached || git commit -m "chore: auto-update structure.json"
+          git push
