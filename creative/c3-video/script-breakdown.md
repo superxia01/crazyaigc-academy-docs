@@ -3,7 +3,7 @@ title: "脚本与分镜拆解：AI 生成视频脚本并同步转化为视觉分
 description: "学习用 AI 快速生成视频脚本，并自动拆解为分镜画面，大幅缩短视频前期的策划和分镜制作时间。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-video"", ""script""]
+tags: ["academy", "learning", "ai-video", "script"]
 order: 1
 ---
 

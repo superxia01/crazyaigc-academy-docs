@@ -3,7 +3,7 @@ title: "动态镜头控制：视频工具的镜头推拉摇移、人物动作一
 description: "掌握 AI 视频生成中的镜头控制和人物动作一致性技巧，学会用运动描述语言和参考驱动实现精准的动态画面控制。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-video"", ""motion""]
+tags: ["academy", "learning", "ai-video", "motion"]
 order: 4
 ---
 

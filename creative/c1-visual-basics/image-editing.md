@@ -3,7 +3,7 @@ title: "图生图高阶玩法：垫图控制主体与替换背景"
 description: "深入掌握图生图（Image-to-Image）技术，学会用垫图控制画面主体、替换背景、融合多张参考图，实现从「随机生成」到「精准控制」的跨越。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""img2img""]
+tags: ["academy", "learning", "ai-visual", "img2img"]
 order: 4
 ---
 

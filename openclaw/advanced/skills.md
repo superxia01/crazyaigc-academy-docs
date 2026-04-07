@@ -3,7 +3,7 @@ title: "技能系统"
 description: "OpenClaw 技能系统教程：了解 Skill 的目录结构、安装配置方法，让 AI 助手获得操作外部工具和服务的能力。"
 date: "2026-03-16"
 category: "OpenClaw实操指南"
-tags: [""openclaw-advanced"", ""openclaw-skills"", ""OpenClaw""]
+tags: ["openclaw-advanced", "openclaw-skills", "OpenClaw"]
 order: 15
 ---
 

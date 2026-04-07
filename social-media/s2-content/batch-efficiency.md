@@ -1,9 +1,9 @@
 ---
 title: "批量提效：用 AI 批量改写文案、内容去重润色、适配多平台分发"
-description: ""
+description: "
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning""]
+tags: ["academy", "learning"]
 order: 1
 ---
 

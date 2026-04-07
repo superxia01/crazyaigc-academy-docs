@@ -3,7 +3,7 @@ title: "专属模型训练：LoRA 训练基础概念、数据集准备与模型�
 description: "从零开始学习 LoRA 模型训练，涵盖基础概念、数据集准备、训练参数配置和模型使用，为品牌打造专属的 AI 图像生成模型。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""branding"", ""lora""]
+tags: ["academy", "learning", "ai-visual", "branding", "lora"]
 order: 2
 ---
 

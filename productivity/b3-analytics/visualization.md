@@ -1,6 +1,6 @@
 ---
 title: "可视化：生成图表让数据直观"
-description: ""
+description: "
 date: "2026-03-17"
 category: "AI 学院"
 ---

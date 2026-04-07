@@ -3,7 +3,7 @@ title: "逼真配音与口播：AI 制作带多语种/方言的逼真配音、�
 description: "全面掌握 AI 配音技术，包括多语种/方言配音、声音克隆、口播视频制作和商用级音频后期处理。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-video"", ""voice""]
+tags: ["academy", "learning", "ai-video", "voice"]
 order: 6
 ---
 

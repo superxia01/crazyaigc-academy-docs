@@ -3,7 +3,7 @@ title: "一致性保持：角色与特定艺术风格一致性"
 description: "掌握 AI 图像生成中的角色一致性和风格一致性技巧，使用 Seed、Character Reference、Style Reference、LoRA 等方法，让多张图片保持统一的人物形象和视觉风格。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""consistency""]
+tags: ["academy", "learning", "ai-visual", "consistency"]
 order: 3
 ---
 

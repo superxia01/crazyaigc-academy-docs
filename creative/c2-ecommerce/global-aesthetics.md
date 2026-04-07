@@ -3,7 +3,7 @@ title: "全球审美适配：生成符合海外受众审美的营销海报"
 description: "了解不同国家和地区的审美偏好差异，掌握用 AI 生成符合目标市场审美的营销视觉内容，提升海外市场的转化率和品牌好感度。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""ecommerce"", ""global""]
+tags: ["academy", "learning", "ai-visual", "ecommerce", "global"]
 order: 3
 ---
 

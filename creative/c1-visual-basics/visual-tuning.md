@@ -3,7 +3,7 @@ title: "视觉微调：局部重绘与细节精修实操手法"
 description: "掌握 AI 图像的局部重绘、细节精修和放大修复技巧，把 AI 生成的图从「能用」提升到「商用级别」。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""retouching""]
+tags: ["academy", "learning", "ai-visual", "retouching"]
 order: 5
 ---
 

@@ -3,7 +3,7 @@ title: "会话管理"
 description: "OpenClaw 会话管理教程：理解 Main Session 与 Group Session 的区别，正确隔离上下文、保护隐私、优化记忆连续性。"
 date: "2026-03-16"
 category: "OpenClaw实操指南"
-tags: [""openclaw-advanced"", ""OpenClaw""]
+tags: ["openclaw-advanced", "OpenClaw"]
 order: 12
 ---
 

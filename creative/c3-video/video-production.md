@@ -3,7 +3,7 @@ title: "视频改编全链路实操：从图文/小说到高质量动画视频�
 description: "完整拆解从图文/小说内容到高质量动画视频的 AI 制作流程，涵盖内容拆解、分镜生成、视频合成和后期制作。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-video"", ""production""]
+tags: ["academy", "learning", "ai-video", "production"]
 order: 2
 ---
 

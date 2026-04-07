@@ -1,6 +1,6 @@
 ---
 title: "外贸专属：写外贸开发信、小语种邮件、实时翻译"
-description: ""
+description: "
 date: "2026-03-17"
 category: "AI 学院"
 ---

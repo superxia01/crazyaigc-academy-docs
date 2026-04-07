@@ -3,7 +3,7 @@ title: "精准画面指令：精准控制光影、材质、构图和镜头视角
 description: "掌握 AI 绘画中的精准提示词技巧，学会用专业摄影和美术术语控制光影方向、材质质感、构图法则和镜头视角，让 AI 输出你脑中的画面。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""prompt""]
+tags: ["academy", "learning", "ai-visual", "prompt"]
 order: 2
 ---
 

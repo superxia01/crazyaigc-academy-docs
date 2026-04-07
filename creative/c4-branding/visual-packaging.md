@@ -3,7 +3,7 @@ title: "视觉包装：餐饮/快消品牌年轻化、国际化视觉升级"
 description: "用 AI 实现餐饮和快消品牌的视觉升级，包括 Logo 优化、包装设计、空间视觉和品牌物料，让传统品牌焕发年轻化和国际化活力。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""branding"", ""packaging""]
+tags: ["academy", "learning", "ai-visual", "branding", "packaging"]
 order: 4
 ---
 

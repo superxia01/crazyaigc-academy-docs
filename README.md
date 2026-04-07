@@ -22,7 +22,7 @@ title: "文档标题"
 description: "文档描述"
 date: "2024-03-15"
 category: "分类名称"
-tags: [""标签1"", ""标签2""]
+tags: ["标签1", ""标签2"]
 order: 1
 ---
 

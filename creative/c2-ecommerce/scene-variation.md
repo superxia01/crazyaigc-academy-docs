@@ -3,7 +3,7 @@ title: "场景秒变技术：白底图快速转化为高转化产品场景图"
 description: "手把手教你用 AI 将电商白底产品图快速转化为多种场景图，包括工具选择、工作流搭建和批量生产，让你的产品详情页从枯燥变吸睛。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""ecommerce""]
+tags: ["academy", "learning", "ai-visual", "ecommerce"]
 order: 1
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "汇报与演示：写总结、周月报，搭建 PPT 大纲"
-description: ""
+description: "
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning""]
+tags: ["academy", "learning"]
 order: 7
 ---
 

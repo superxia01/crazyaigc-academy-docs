@@ -3,7 +3,7 @@ title: "商业版权避坑指南：保持产品主轮廓不变、微调细节以
 description: "系统梳理 AI 生成图片的版权风险与合规策略，包括训练数据版权、外观专利规避、字体授权和商用许可，帮你安全合规地使用 AI 视觉内容。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-visual"", ""copyright""]
+tags: ["academy", "learning", "ai-visual", "copyright"]
 order: 6
 ---
 

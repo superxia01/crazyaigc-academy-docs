@@ -1,9 +1,9 @@
 ---
 title: "运营闭环：橱子内容设置、评论区高情商维护、公域转私域导流 SOP"
-description: ""
+description: "
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning""]
+tags: ["academy", "learning"]
 order: 1
 ---
 

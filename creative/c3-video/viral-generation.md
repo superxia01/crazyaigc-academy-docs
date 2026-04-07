@@ -3,7 +3,7 @@ title: "爆款短视频生成：图文内容一键转视频的实操流程"
 description: "掌握用 AI 将现有图文内容（文章、笔记、PPT）快速转化为爆款短视频的完整流程，覆盖工具选择、批量生产和平台适配。"
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning"", ""ai-video"", ""short-video""]
+tags: ["academy", "learning", "ai-video", "short-video"]
 order: 3
 ---
 

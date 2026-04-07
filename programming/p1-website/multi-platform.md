@@ -1,9 +1,9 @@
 ---
 title: "多端适配：无需复杂代码实现多语言适配、多终端自适应布局"
-description: ""
+description: "
 date: "2026-03-17"
 category: "AI 学院"
-tags: [""academy"", ""learning""]
+tags: ["academy", "learning"]
 order: 2
 ---
 
