@@ -1,193 +1,23 @@
 [
   {
-    "title": "AI 工具指南",
-    "path": "ai-tools",
+    "title": "入门指南",
+    "path": "introduction",
     "children": [
       {
-        "title": "Main Tools",
-        "path": "ai-tools/main-tools",
+        "title": "快速开始",
+        "path": "introduction/quick-start",
         "children": [
           {
-            "title": "ChatGPT 指南",
-            "path": "ai-tools/main-tools/chatgpt-guide"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "视觉生成与多媒体创作",
-    "path": "creative",
-    "children": [
-      {
-        "title": "C1 Visual Basics",
-        "path": "creative/c1-visual-basics",
-        "children": [
-          {
-            "title": "一致性保持：角色与特定艺术风格一致性",
-            "path": "creative/c1-visual-basics/consistency"
+            "title": "AI 基础",
+            "path": "introduction/quick-start/ai-basics"
           },
           {
-            "title": "商业版权避坑指南：保持产品主轮廓不变、微调细节以规避外观专利",
-            "path": "creative/c1-visual-basics/copyright-guide"
+            "title": "快速开始",
+            "path": "introduction/quick-start/getting-started"
           },
           {
-            "title": "图生图高阶玩法：垫图控制主体与替换背景",
-            "path": "creative/c1-visual-basics/image-editing"
-          },
-          {
-            "title": "精准画面指令：精准控制光影、材质、构图和镜头视角",
-            "path": "creative/c1-visual-basics/precise-control"
-          },
-          {
-            "title": "视觉工具阵营：Nano Banana、Midjourney、ComfyUI 等工具优劣势分析",
-            "path": "creative/c1-visual-basics/visual-tools"
-          },
-          {
-            "title": "视觉微调：局部重绘与细节精修实操手法",
-            "path": "creative/c1-visual-basics/visual-tuning"
-          }
-        ]
-      },
-      {
-        "title": "C2 Ecommerce",
-        "path": "creative/c2-ecommerce",
-        "children": [
-          {
-            "title": "批量视觉产出：独立站、Instagram 广告素材批量生产、结合节日/节气快速生成营销物料",
-            "path": "creative/c2-ecommerce/batch-production"
-          },
-          {
-            "title": "全球审美适配：生成符合海外受众审美的营销海报",
-            "path": "creative/c2-ecommerce/global-aesthetics"
-          },
-          {
-            "title": "知识产权规避：保持产品主轮廓不变、微调细节以规避外观专利",
-            "path": "creative/c2-ecommerce/ip-avoidance"
-          },
-          {
-            "title": "场景秒变技术：白底图快速转化为高转化产品场景图",
-            "path": "creative/c2-ecommerce/scene-variation"
-          }
-        ]
-      },
-      {
-        "title": "C3 Video",
-        "path": "creative/c3-video",
-        "children": [
-          {
-            "title": "动态镜头控制：视频工具的镜头推拉摇移、人物动作一致性控制",
-            "path": "creative/c3-video/dynamic-control"
-          },
-          {
-            "title": "商业水平提升：TVC 级别视频剪辑、配乐与质感提升",
-            "path": "creative/c3-video/professional-level"
-          },
-          {
-            "title": "脚本与分镜拆解：AI 生成视频脚本并同步转化为视觉分镜画面",
-            "path": "creative/c3-video/script-breakdown"
-          },
-          {
-            "title": "视频改编全链路实操：从图文/小说到高质量动画视频的完整制作流程",
-            "path": "creative/c3-video/video-production"
-          },
-          {
-            "title": "爆款短视频生成：图文内容一键转视频的实操流程",
-            "path": "creative/c3-video/viral-generation"
-          },
-          {
-            "title": "逼真配音与口播：AI 制作带多语种/方言的逼真配音、商用级剪辑",
-            "path": "creative/c3-video/voice-acting"
-          }
-        ]
-      },
-      {
-        "title": "C4 Branding",
-        "path": "creative/c4-branding",
-        "children": [
-          {
-            "title": "专属模型训练：LoRA 训练基础概念、数据集准备与模型微调",
-            "path": "creative/c4-branding/custom-model"
-          },
-          {
-            "title": "工业设计：构建产品三维概念图与工业设计草图",
-            "path": "creative/c4-branding/industrial-design"
-          },
-          {
-            "title": "IP 形象：从 0 到 1 设计品牌专属 IP 形象",
-            "path": "creative/c4-branding/ip-image"
-          },
-          {
-            "title": "视觉包装：餐饮/快消品牌年轻化、国际化视觉升级",
-            "path": "creative/c4-branding/visual-packaging"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "跨境电商全链路运营",
-    "path": "cross-border",
-    "children": [
-      {
-        "title": "K1 Market",
-        "path": "cross-border/k1-market",
-        "children": [
-          {
-            "title": "AI 赋能：用 AI 自动生成高权重 Listing、批量产出符合海外审美的广告主图",
-            "path": "cross-border/k1-market/ai-empowerment"
-          },
-          {
-            "title": "AI 数据挖掘：AI 挖掘海关数据与客户信息、一键生成海外模特图/实景图",
-            "path": "cross-border/k1-market/data-mining"
-          },
-          {
-            "title": "选品逻辑：亚马逊/TikTok/独立站选品工具应用、竞争对手分析",
-            "path": "cross-border/k1-market/product-selection"
-          },
-          {
-            "title": "店铺起步：店铺注册规范、Listing 埋词优化、转化率核心因素拆解",
-            "path": "cross-border/k1-market/store-setup"
-          }
-        ]
-      },
-      {
-        "title": "K2 Marketing",
-        "path": "cross-border/k2-marketing",
-        "children": [
-          {
-            "title": "投放实务：FB/Google Ads/TikTok Ads 投放逻辑",
-            "path": "cross-border/k2-marketing/ad-practice"
-          },
-          {
-            "title": "AI 自动化：AI 自动生成 Listing、批量产出海外模特图/海报、跨语言客诉自动化",
-            "path": "cross-border/k2-marketing/ai-automation"
-          },
-          {
-            "title": "内容获客：用 AI 优化社媒发帖内容、提升海外曝光、批量生成 TikTok 广告短视频素材",
-            "path": "cross-border/k2-marketing/content-leads"
-          },
-          {
-            "title": "达人营销建联：达人营销（KOL/KOC）建联与合作 SOP",
-            "path": "cross-border/k2-marketing/kol-partnership"
-          }
-        ]
-      },
-      {
-        "title": "K3 Service",
-        "path": "cross-border/k3-service",
-        "children": [
-          {
-            "title": "AI 赋能：自动化处理跨语言客诉与异议处理、利用 AI 提炼售后反馈优化产品线",
-            "path": "cross-border/k3-service/ai-empowerment"
-          },
-          {
-            "title": "跨境闭环：用 AI 写外贸开发信、小语种邮件、实时翻译并适配海外沟通习惯",
-            "path": "cross-border/k3-service/cross-border-loop"
-          },
-          {
-            "title": "供应链管理：FBA/海外仓代发流程、成本控制与利润核算模型",
-            "path": "cross-border/k3-service/supply-chain"
+            "title": "设置指南",
+            "path": "introduction/quick-start/setup-guide"
           }
         ]
       }
@@ -198,7 +28,7 @@
     "path": "foundation",
     "children": [
       {
-        "title": "A1 Basics",
+        "title": "AI 基础通识与边界",
         "path": "foundation/a1-basics",
         "children": [
           {
@@ -228,7 +58,7 @@
         ]
       },
       {
-        "title": "A2 Prompt",
+        "title": "提示词基础与设计",
         "path": "foundation/a2-prompt",
         "children": [
           {
@@ -264,11 +94,445 @@
     ]
   },
   {
+    "title": "提示词工程进阶",
+    "path": "prompt-engineering",
+    "children": [
+      {
+        "title": "提示词基础",
+        "path": "prompt-engineering/basics",
+        "children": [
+          {
+            "title": "高级技巧",
+            "path": "prompt-engineering/basics/advanced-techniques"
+          },
+          {
+            "title": "基础提示词",
+            "path": "prompt-engineering/basics/basic-prompts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI 工具指南",
+    "path": "ai-tools",
+    "children": [
+      {
+        "title": "主流工具",
+        "path": "ai-tools/main-tools",
+        "children": [
+          {
+            "title": "ChatGPT 指南",
+            "path": "ai-tools/main-tools/chatgpt-guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "办公效率与内容创作",
+    "path": "productivity",
+    "children": [
+      {
+        "title": "办公自动化与智能辅助",
+        "path": "productivity/b1-office",
+        "children": [
+          {
+            "title": "行政/人事效率化：快速撰写通知、制度，批量排版、改错",
+            "path": "productivity/b1-office/admin-hr-efficiency"
+          },
+          {
+            "title": "内容创作：公众号长文、小红书笔记、视频脚本",
+            "path": "productivity/b1-office/content-creation"
+          },
+          {
+            "title": "邮件类：生成商务邮件、自动回复、跟进话术",
+            "path": "productivity/b1-office/email-tasks"
+          },
+          {
+            "title": "财务与数据整理：AI 处理 Excel 公式、对账核对、生成报表",
+            "path": "productivity/b1-office/finance-data"
+          },
+          {
+            "title": "通用场景：会议录音、聊天记录一键转纪要、生成待办清单",
+            "path": "productivity/b1-office/general-scenarios"
+          },
+          {
+            "title": "主流办公 AI 工具：WPS AI、Office 365 Copilot、飞书 AI 适配与选择",
+            "path": "productivity/b1-office/office-tools"
+          },
+          {
+            "title": "汇报与演示：写总结、周月报，搭建 PPT 大纲",
+            "path": "productivity/b1-office/report-presentation"
+          }
+        ]
+      },
+      {
+        "title": "销售与客户沟通",
+        "path": "productivity/b2-sales",
+        "children": [
+          {
+            "title": "客户分析：从聊天记录中提炼需求、判断意向、精准跟进",
+            "path": "productivity/b2-sales/customer-analysis"
+          },
+          {
+            "title": "销售话术：开场白、产品介绍、逼单、回访、催款、安抚话术",
+            "path": "productivity/b2-sales/sales-scripts"
+          },
+          {
+            "title": "客服话术：处理异议、投诉，生成标准化回复",
+            "path": "productivity/b2-sales/service-scripts"
+          },
+          {
+            "title": "社媒获客：写私信、评论互动话术、批量回复提升效率",
+            "path": "productivity/b2-sales/social-leads"
+          },
+          {
+            "title": "外贸专属：写外贸开发信、小语种邮件、实时翻译",
+            "path": "productivity/b2-sales/trade-specific"
+          }
+        ]
+      },
+      {
+        "title": "数据分析与决策",
+        "path": "productivity/b3-analytics",
+        "children": [
+          {
+            "title": "数据解读：看懂核心业务数据、通俗化解读专业数据",
+            "path": "productivity/b3-analytics/data-interpretation"
+          },
+          {
+            "title": "数据处理：数据清洗、整理、对比、剔除无效信息",
+            "path": "productivity/b3-analytics/data-processing"
+          },
+          {
+            "title": "报告生成：自动生成数据分析报告、复盘总结、节省撰写时间",
+            "path": "productivity/b3-analytics/report-generation"
+          },
+          {
+            "title": "安全合规：企业数据分析的脱敏与合规操作",
+            "path": "productivity/b3-analytics/security-compliance"
+          },
+          {
+            "title": "趋势预测：做简单业务预测、趋势判断、辅助管理层决策",
+            "path": "productivity/b3-analytics/trend-prediction"
+          },
+          {
+            "title": "可视化：生成图表让数据直观",
+            "path": "productivity/b3-analytics/visualization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "视觉生成与多媒体创作",
+    "path": "creative",
+    "children": [
+      {
+        "title": "视觉生成基础",
+        "path": "creative/c1-visual-basics",
+        "children": [
+          {
+            "title": "一致性保持：角色与特定艺术风格一致性",
+            "path": "creative/c1-visual-basics/consistency"
+          },
+          {
+            "title": "商业版权避坑指南：保持产品主轮廓不变、微调细节以规避外观专利",
+            "path": "creative/c1-visual-basics/copyright-guide"
+          },
+          {
+            "title": "图生图高阶玩法：垫图控制主体与替换背景",
+            "path": "creative/c1-visual-basics/image-editing"
+          },
+          {
+            "title": "精准画面指令：精准控制光影、材质、构图和镜头视角",
+            "path": "creative/c1-visual-basics/precise-control"
+          },
+          {
+            "title": "视觉工具阵营：Nano Banana、Midjourney、ComfyUI 等工具优劣势分析",
+            "path": "creative/c1-visual-basics/visual-tools"
+          },
+          {
+            "title": "视觉微调：局部重绘与细节精修实操手法",
+            "path": "creative/c1-visual-basics/visual-tuning"
+          }
+        ]
+      },
+      {
+        "title": "电商视觉实战",
+        "path": "creative/c2-ecommerce",
+        "children": [
+          {
+            "title": "批量视觉产出：独立站、Instagram 广告素材批量生产、结合节日/节气快速生成营销物料",
+            "path": "creative/c2-ecommerce/batch-production"
+          },
+          {
+            "title": "全球审美适配：生成符合海外受众审美的营销海报",
+            "path": "creative/c2-ecommerce/global-aesthetics"
+          },
+          {
+            "title": "知识产权规避：保持产品主轮廓不变、微调细节以规避外观专利",
+            "path": "creative/c2-ecommerce/ip-avoidance"
+          },
+          {
+            "title": "场景秒变技术：白底图快速转化为高转化产品场景图",
+            "path": "creative/c2-ecommerce/scene-variation"
+          }
+        ]
+      },
+      {
+        "title": "视频与多媒体创作",
+        "path": "creative/c3-video",
+        "children": [
+          {
+            "title": "动态镜头控制：视频工具的镜头推拉摇移、人物动作一致性控制",
+            "path": "creative/c3-video/dynamic-control"
+          },
+          {
+            "title": "商业水平提升：TVC 级别视频剪辑、配乐与质感提升",
+            "path": "creative/c3-video/professional-level"
+          },
+          {
+            "title": "脚本与分镜拆解：AI 生成视频脚本并同步转化为视觉分镜画面",
+            "path": "creative/c3-video/script-breakdown"
+          },
+          {
+            "title": "视频改编全链路实操：从图文/小说到高质量动画视频的完整制作流程",
+            "path": "creative/c3-video/video-production"
+          },
+          {
+            "title": "爆款短视频生成：图文内容一键转视频的实操流程",
+            "path": "creative/c3-video/viral-generation"
+          },
+          {
+            "title": "逼真配音与口播：AI 制作带多语种/方言的逼真配音、商用级剪辑",
+            "path": "creative/c3-video/voice-acting"
+          }
+        ]
+      },
+      {
+        "title": "品牌视觉与 IP 打造",
+        "path": "creative/c4-branding",
+        "children": [
+          {
+            "title": "专属模型训练：LoRA 训练基础概念、数据集准备与模型微调",
+            "path": "creative/c4-branding/custom-model"
+          },
+          {
+            "title": "工业设计：构建产品三维概念图与工业设计草图",
+            "path": "creative/c4-branding/industrial-design"
+          },
+          {
+            "title": "IP 形象：从 0 到 1 设计品牌专属 IP 形象",
+            "path": "creative/c4-branding/ip-image"
+          },
+          {
+            "title": "视觉包装：餐饮/快消品牌年轻化、国际化视觉升级",
+            "path": "creative/c4-branding/visual-packaging"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "全平台自媒体运营",
+    "path": "social-media",
+    "children": [
+      {
+        "title": "平台机制与算法",
+        "path": "social-media/s1-mechanism",
+        "children": [
+          {
+            "title": "账号定位：差异化赛道筛选、人设商业模型建立、视觉体系规划",
+            "path": "social-media/s1-mechanism/account-positioning"
+          },
+          {
+            "title": "AI 工具整合：从 ChatGPT 到 Midjourney 的全套工具链搭建",
+            "path": "social-media/s1-mechanism/ai-integration"
+          },
+          {
+            "title": "平台机制：抖音、小红书、公众号算法逻辑（流量池、权重、分发机制）",
+            "path": "social-media/s1-mechanism/platform-mechanics"
+          },
+          {
+            "title": "选题矩阵：热点追踪、选题库搭建、长视频/短图文内容组合",
+            "path": "social-media/s1-mechanism/topic-matrix"
+          }
+        ]
+      },
+      {
+        "title": "内容创作与运营",
+        "path": "social-media/s2-content",
+        "children": [
+          {
+            "title": "批量提效：用 AI 批量改写文案、内容去重润色、适配多平台分发",
+            "path": "social-media/s2-content/batch-efficiency"
+          },
+          {
+            "title": "全案创作：用 AI 写公众号长文、小红书笔记、视频脚本",
+            "path": "social-media/s2-content/full-production"
+          },
+          {
+            "title": "选题策略：热点追踪、选题库搭建、长视频/短图文的内容组合策略",
+            "path": "social-media/s2-content/topic-strategy"
+          }
+        ]
+      },
+      {
+        "title": "变现策略",
+        "path": "social-media/s3-monetization",
+        "children": [
+          {
+            "title": "AI 赋能：用 AI 编写高转化引流话术、社媒私信互动模板",
+            "path": "social-media/s3-monetization/ai-empowerment"
+          },
+          {
+            "title": "运营闭环：橱子内容设置、评论区高情商维护、公域转私域导流 SOP",
+            "path": "social-media/s3-monetization/operation-loop"
+          },
+          {
+            "title": "私域转化：橱子设置、评论维护、公域转私域导流 SOP",
+            "path": "social-media/s3-monetization/private-conversion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "跨境电商全链路运营",
+    "path": "cross-border",
+    "children": [
+      {
+        "title": "市场调研与选品",
+        "path": "cross-border/k1-market",
+        "children": [
+          {
+            "title": "AI 赋能：用 AI 自动生成高权重 Listing、批量产出符合海外审美的广告主图",
+            "path": "cross-border/k1-market/ai-empowerment"
+          },
+          {
+            "title": "AI 数据挖掘：AI 挖掘海关数据与客户信息、一键生成海外模特图/实景图",
+            "path": "cross-border/k1-market/data-mining"
+          },
+          {
+            "title": "选品逻辑：亚马逊/TikTok/独立站选品工具应用、竞争对手分析",
+            "path": "cross-border/k1-market/product-selection"
+          },
+          {
+            "title": "店铺起步：店铺注册规范、Listing 埋词优化、转化率核心因素拆解",
+            "path": "cross-border/k1-market/store-setup"
+          }
+        ]
+      },
+      {
+        "title": "营销推广",
+        "path": "cross-border/k2-marketing",
+        "children": [
+          {
+            "title": "投放实务：FB/Google Ads/TikTok Ads 投放逻辑",
+            "path": "cross-border/k2-marketing/ad-practice"
+          },
+          {
+            "title": "AI 自动化：AI 自动生成 Listing、批量产出海外模特图/海报、跨语言客诉自动化",
+            "path": "cross-border/k2-marketing/ai-automation"
+          },
+          {
+            "title": "内容获客：用 AI 优化社媒发帖内容、提升海外曝光、批量生成 TikTok 广告短视频素材",
+            "path": "cross-border/k2-marketing/content-leads"
+          },
+          {
+            "title": "达人营销建联：达人营销（KOL/KOC）建联与合作 SOP",
+            "path": "cross-border/k2-marketing/kol-partnership"
+          }
+        ]
+      },
+      {
+        "title": "客服与售后",
+        "path": "cross-border/k3-service",
+        "children": [
+          {
+            "title": "AI 赋能：自动化处理跨语言客诉与异议处理、利用 AI 提炼售后反馈优化产品线",
+            "path": "cross-border/k3-service/ai-empowerment"
+          },
+          {
+            "title": "跨境闭环：用 AI 写外贸开发信、小语种邮件、实时翻译并适配海外沟通习惯",
+            "path": "cross-border/k3-service/cross-border-loop"
+          },
+          {
+            "title": "供应链管理：FBA/海外仓代发流程、成本控制与利润核算模型",
+            "path": "cross-border/k3-service/supply-chain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI 编程与自动化开发",
+    "path": "programming",
+    "children": [
+      {
+        "title": "网站开发与部署",
+        "path": "programming/p1-website",
+        "children": [
+          {
+            "title": "AI 赋能：AI 辅助界面改版、样式调整、SEO 架构自动化优化",
+            "path": "programming/p1-website/ai-empowerment"
+          },
+          {
+            "title": "多端适配：无需复杂代码实现多语言适配、多终端自适应布局",
+            "path": "programming/p1-website/multi-platform"
+          },
+          {
+            "title": "实战建站：用 AI 快速搭建企业官网、产品营销站、外贸独立站",
+            "path": "programming/p1-website/quick-website"
+          }
+        ]
+      },
+      {
+        "title": "自动化脚本与工作流",
+        "path": "programming/p2-automation",
+        "children": [
+          {
+            "title": "AI 赋能：零基础通过 AI 编写 Python 或常用脚本逻辑、AI 辅助进行代码重构",
+            "path": "programming/p2-automation/ai-empowerment"
+          },
+          {
+            "title": "数据挖掘：用 AI 做简单数据爬虫、信息采集、快速获取行业数据与客户线索",
+            "path": "programming/p2-automation/data-mining"
+          },
+          {
+            "title": "提效利器：编写批量数据处理、重复操作自动化脚本",
+            "path": "programming/p2-automation/efficiency-tools"
+          }
+        ]
+      },
+      {
+        "title": "AI 应用开发",
+        "path": "programming/p3-development",
+        "children": [
+          {
+            "title": "AI 赋能：利用 AI + 低代码工具、快速搭建企业内部管理系统",
+            "path": "programming/p3-development/ai-empowerment"
+          },
+          {
+            "title": "开发辅助：辅助编程工具（GitHub Copilot 等）使用技巧、小程序/APP 核心功能辅助开发",
+            "path": "programming/p3-development/dev-assistance"
+          },
+          {
+            "title": "系统逻辑：用 AI 解释复杂代码逻辑、查 Bug、优化后端业务流程",
+            "path": "programming/p3-development/system-logic"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "企业落地与管理策略",
     "path": "governance",
     "children": [
       {
-        "title": "G1 Strategy",
+        "title": "企业落地策略",
         "path": "governance/g1-strategy",
         "children": [
           {
@@ -300,35 +564,11 @@
     ]
   },
   {
-    "title": "入门指南",
-    "path": "introduction",
-    "children": [
-      {
-        "title": "Quick Start",
-        "path": "introduction/quick-start",
-        "children": [
-          {
-            "title": "AI 基础",
-            "path": "introduction/quick-start/ai-basics"
-          },
-          {
-            "title": "快速开始",
-            "path": "introduction/quick-start/getting-started"
-          },
-          {
-            "title": "设置指南",
-            "path": "introduction/quick-start/setup-guide"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "商业变现与行业插件",
     "path": "monetization",
     "children": [
       {
-        "title": "M1 Business",
+        "title": "商业模式设计",
         "path": "monetization/m1-business",
         "children": [
           {
@@ -354,7 +594,7 @@
         ]
       },
       {
-        "title": "M2 Industry",
+        "title": "行业解决方案",
         "path": "monetization/m2-industry",
         "children": [
           {
@@ -394,7 +634,55 @@
     "path": "openclaw",
     "children": [
       {
-        "title": "Advanced",
+        "title": "入门指南",
+        "path": "openclaw/getting-started",
+        "children": [
+          {
+            "title": "Gateway 基础",
+            "path": "openclaw/getting-started/gateway-basics"
+          },
+          {
+            "title": "安装与部署",
+            "path": "openclaw/getting-started/installation"
+          },
+          {
+            "title": "OpenClaw 是什么",
+            "path": "openclaw/getting-started/what-is-openclaw"
+          }
+        ]
+      },
+      {
+        "title": "渠道配置",
+        "path": "openclaw/channels",
+        "children": [
+          {
+            "title": "钉钉接入",
+            "path": "openclaw/channels/dingtalk"
+          },
+          {
+            "title": "飞书接入",
+            "path": "openclaw/channels/feishu"
+          },
+          {
+            "title": "国际平台接入",
+            "path": "openclaw/channels/international"
+          },
+          {
+            "title": "QQ 机器人接入",
+            "path": "openclaw/channels/qq"
+          },
+          {
+            "title": "微信接入",
+            "path": "openclaw/channels/wechat"
+          },
+          {
+            "title": "企业微信接入",
+            "path": "openclaw/channels/wecom"
+          }
+        ]
+      },
+      {
+        "title": "高级技巧",
         "path": "openclaw/advanced",
         "children": [
           {
@@ -424,7 +712,7 @@
         ]
       },
       {
-        "title": "Cases",
+        "title": "实战案例",
         "path": "openclaw/cases",
         "children": [
           {
@@ -458,51 +746,7 @@
         ]
       },
       {
-        "title": "Channels",
-        "path": "openclaw/channels",
-        "children": [
-          {
-            "title": "钉钉接入",
-            "path": "openclaw/channels/dingtalk"
-          },
-          {
-            "title": "飞书接入",
-            "path": "openclaw/channels/feishu"
-          },
-          {
-            "title": "国际平台接入",
-            "path": "openclaw/channels/international"
-          },
-          {
-            "title": "QQ 机器人接入",
-            "path": "openclaw/channels/qq"
-          },
-          {
-            "title": "微信接入",
-            "path": "openclaw/channels/wechat"
-          },
-          {
-            "title": "企业微信接入",
-            "path": "openclaw/channels/wecom"
-          }
-        ]
-      },
-      {
-        "title": "Config",
-        "path": "openclaw/config",
-        "children": [
-          {
-            "title": "配置文件详解",
-            "path": "openclaw/config/config-guide"
-          },
-          {
-            "title": "打造 AI 人设",
-            "path": "openclaw/config/persona"
-          }
-        ]
-      },
-      {
-        "title": "Expert",
+        "title": "专家模式",
         "path": "openclaw/expert",
         "children": [
           {
@@ -524,260 +768,16 @@
         ]
       },
       {
-        "title": "Getting Started",
-        "path": "openclaw/getting-started",
+        "title": "系统配置",
+        "path": "openclaw/config",
         "children": [
           {
-            "title": "Gateway 基础",
-            "path": "openclaw/getting-started/gateway-basics"
+            "title": "配置文件详解",
+            "path": "openclaw/config/config-guide"
           },
           {
-            "title": "安装与部署",
-            "path": "openclaw/getting-started/installation"
-          },
-          {
-            "title": "OpenClaw 是什么",
-            "path": "openclaw/getting-started/what-is-openclaw"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "办公效率与内容创作",
-    "path": "productivity",
-    "children": [
-      {
-        "title": "B1 Office",
-        "path": "productivity/b1-office",
-        "children": [
-          {
-            "title": "行政/人事效率化：快速撰写通知、制度，批量排版、改错",
-            "path": "productivity/b1-office/admin-hr-efficiency"
-          },
-          {
-            "title": "内容创作：公众号长文、小红书笔记、视频脚本",
-            "path": "productivity/b1-office/content-creation"
-          },
-          {
-            "title": "邮件类：生成商务邮件、自动回复、跟进话术",
-            "path": "productivity/b1-office/email-tasks"
-          },
-          {
-            "title": "财务与数据整理：AI 处理 Excel 公式、对账核对、生成报表",
-            "path": "productivity/b1-office/finance-data"
-          },
-          {
-            "title": "通用场景：会议录音、聊天记录一键转纪要、生成待办清单",
-            "path": "productivity/b1-office/general-scenarios"
-          },
-          {
-            "title": "主流办公 AI 工具：WPS AI、Office 365 Copilot、飞书 AI 适配与选择",
-            "path": "productivity/b1-office/office-tools"
-          },
-          {
-            "title": "汇报与演示：写总结、周月报，搭建 PPT 大纲",
-            "path": "productivity/b1-office/report-presentation"
-          }
-        ]
-      },
-      {
-        "title": "B2 Sales",
-        "path": "productivity/b2-sales",
-        "children": [
-          {
-            "title": "客户分析：从聊天记录中提炼需求、判断意向、精准跟进",
-            "path": "productivity/b2-sales/customer-analysis"
-          },
-          {
-            "title": "销售话术：开场白、产品介绍、逼单、回访、催款、安抚话术",
-            "path": "productivity/b2-sales/sales-scripts"
-          },
-          {
-            "title": "客服话术：处理异议、投诉，生成标准化回复",
-            "path": "productivity/b2-sales/service-scripts"
-          },
-          {
-            "title": "社媒获客：写私信、评论互动话术、批量回复提升效率",
-            "path": "productivity/b2-sales/social-leads"
-          },
-          {
-            "title": "外贸专属：写外贸开发信、小语种邮件、实时翻译",
-            "path": "productivity/b2-sales/trade-specific"
-          }
-        ]
-      },
-      {
-        "title": "B3 Analytics",
-        "path": "productivity/b3-analytics",
-        "children": [
-          {
-            "title": "数据解读：看懂核心业务数据、通俗化解读专业数据",
-            "path": "productivity/b3-analytics/data-interpretation"
-          },
-          {
-            "title": "数据处理：数据清洗、整理、对比、剔除无效信息",
-            "path": "productivity/b3-analytics/data-processing"
-          },
-          {
-            "title": "报告生成：自动生成数据分析报告、复盘总结、节省撰写时间",
-            "path": "productivity/b3-analytics/report-generation"
-          },
-          {
-            "title": "安全合规：企业数据分析的脱敏与合规操作",
-            "path": "productivity/b3-analytics/security-compliance"
-          },
-          {
-            "title": "趋势预测：做简单业务预测、趋势判断、辅助管理层决策",
-            "path": "productivity/b3-analytics/trend-prediction"
-          },
-          {
-            "title": "可视化：生成图表让数据直观",
-            "path": "productivity/b3-analytics/visualization"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "AI 编程与自动化开发",
-    "path": "programming",
-    "children": [
-      {
-        "title": "P1 Website",
-        "path": "programming/p1-website",
-        "children": [
-          {
-            "title": "AI 赋能：AI 辅助界面改版、样式调整、SEO 架构自动化优化",
-            "path": "programming/p1-website/ai-empowerment"
-          },
-          {
-            "title": "多端适配：无需复杂代码实现多语言适配、多终端自适应布局",
-            "path": "programming/p1-website/multi-platform"
-          },
-          {
-            "title": "实战建站：用 AI 快速搭建企业官网、产品营销站、外贸独立站",
-            "path": "programming/p1-website/quick-website"
-          }
-        ]
-      },
-      {
-        "title": "P2 Automation",
-        "path": "programming/p2-automation",
-        "children": [
-          {
-            "title": "AI 赋能：零基础通过 AI 编写 Python 或常用脚本逻辑、AI 辅助进行代码重构",
-            "path": "programming/p2-automation/ai-empowerment"
-          },
-          {
-            "title": "数据挖掘：用 AI 做简单数据爬虫、信息采集、快速获取行业数据与客户线索",
-            "path": "programming/p2-automation/data-mining"
-          },
-          {
-            "title": "提效利器：编写批量数据处理、重复操作自动化脚本",
-            "path": "programming/p2-automation/efficiency-tools"
-          }
-        ]
-      },
-      {
-        "title": "P3 Development",
-        "path": "programming/p3-development",
-        "children": [
-          {
-            "title": "AI 赋能：利用 AI + 低代码工具、快速搭建企业内部管理系统",
-            "path": "programming/p3-development/ai-empowerment"
-          },
-          {
-            "title": "开发辅助：辅助编程工具（GitHub Copilot 等）使用技巧、小程序/APP 核心功能辅助开发",
-            "path": "programming/p3-development/dev-assistance"
-          },
-          {
-            "title": "系统逻辑：用 AI 解释复杂代码逻辑、查 Bug、优化后端业务流程",
-            "path": "programming/p3-development/system-logic"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Prompt Engineering",
-    "path": "prompt-engineering",
-    "children": [
-      {
-        "title": "Basics",
-        "path": "prompt-engineering/basics",
-        "children": [
-          {
-            "title": "高级技巧",
-            "path": "prompt-engineering/basics/advanced-techniques"
-          },
-          {
-            "title": "基础提示词",
-            "path": "prompt-engineering/basics/basic-prompts"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "全平台自媒体运营",
-    "path": "social-media",
-    "children": [
-      {
-        "title": "S1 Mechanism",
-        "path": "social-media/s1-mechanism",
-        "children": [
-          {
-            "title": "账号定位：差异化赛道筛选、人设商业模型建立、视觉体系规划",
-            "path": "social-media/s1-mechanism/account-positioning"
-          },
-          {
-            "title": "AI 工具整合：从 ChatGPT 到 Midjourney 的全套工具链搭建",
-            "path": "social-media/s1-mechanism/ai-integration"
-          },
-          {
-            "title": "平台机制：抖音、小红书、公众号算法逻辑（流量池、权重、分发机制）",
-            "path": "social-media/s1-mechanism/platform-mechanics"
-          },
-          {
-            "title": "选题矩阵：热点追踪、选题库搭建、长视频/短图文内容组合",
-            "path": "social-media/s1-mechanism/topic-matrix"
-          }
-        ]
-      },
-      {
-        "title": "S2 Content",
-        "path": "social-media/s2-content",
-        "children": [
-          {
-            "title": "批量提效：用 AI 批量改写文案、内容去重润色、适配多平台分发",
-            "path": "social-media/s2-content/batch-efficiency"
-          },
-          {
-            "title": "全案创作：用 AI 写公众号长文、小红书笔记、视频脚本",
-            "path": "social-media/s2-content/full-production"
-          },
-          {
-            "title": "选题策略：热点追踪、选题库搭建、长视频/短图文的内容组合策略",
-            "path": "social-media/s2-content/topic-strategy"
-          }
-        ]
-      },
-      {
-        "title": "S3 Monetization",
-        "path": "social-media/s3-monetization",
-        "children": [
-          {
-            "title": "AI 赋能：用 AI 编写高转化引流话术、社媒私信互动模板",
-            "path": "social-media/s3-monetization/ai-empowerment"
-          },
-          {
-            "title": "运营闭环：橱子内容设置、评论区高情商维护、公域转私域导流 SOP",
-            "path": "social-media/s3-monetization/operation-loop"
-          },
-          {
-            "title": "私域转化：橱子设置、评论维护、公域转私域导流 SOP",
-            "path": "social-media/s3-monetization/private-conversion"
+            "title": "打造 AI 人设",
+            "path": "openclaw/config/persona"
           }
         ]
       }

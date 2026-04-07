@@ -52,19 +52,20 @@ jobs:
               except:
                   return {}
 
-          def load_category_names():
-              """加载中英文分类名映射"""
+          def load_config(filename):
+              """加载配置文件"""
               try:
-                  with open('config/categories.json', 'r', encoding='utf-8') as f:
+                  with open(f'config/{filename}', 'r', encoding='utf-8') as f:
                       return json.load(f)
               except:
                   return {}
 
           def build_structure():
               """扫描所有 .md 文件并构建层级结构"""
-              category_names = load_category_names()
-              files_data = []
+              categories_config = load_config('categories.json')
+              order_config = load_config('order.json')
 
+              files_data = []
               for md_file in sorted(Path('.').rglob('*.md')):
                   if md_file.name.lower() == 'readme.md':
                       continue
@@ -78,25 +79,48 @@ jobs:
                       'depth': len(parts)
                   })
 
-              result = []
-              top_dirs = sorted(set(f['parts'][0] for f in files_data if len(f['parts']) >= 1))
+              # 使用 categories.json 的键顺序作为一级分类排序
+              top_dirs_ordered = list(categories_config.keys())
 
-              for top_dir in top_dirs:
-                  children = []
-                  second_dirs = sorted(set(
+              # 添加未在配置中出现的目录（按字母顺序排在最后）
+              all_top_dirs = set(f['parts'][0] for f in files_data if len(f['parts']) >= 1)
+              for d in sorted(all_top_dirs):
+                  if d not in top_dirs_ordered and d != 'config':
+                      top_dirs_ordered.append(d)
+
+              result = []
+              for top_dir in top_dirs_ordered:
+                  if top_dir == 'config':
+                      continue
+
+                  # 获取该一级分类下的二级目录配置
+                  sub_order = order_config.get(top_dir, {})
+                  second_dirs_in_config = list(sub_order.keys())
+
+                  # 获取该一级分类下所有实际的二级目录
+                  actual_second_dirs = sorted(set(
                       f['parts'][1] for f in files_data
                       if len(f['parts']) >= 2 and f['parts'][0] == top_dir
                   ))
 
-                  for second_dir in second_dirs:
+                  # 合并：配置中的顺序 + 未在配置中的（按字母顺序）
+                  second_dirs_ordered = second_dirs_in_config.copy()
+                  for d in actual_second_dirs:
+                      if d not in second_dirs_ordered:
+                          second_dirs_ordered.append(d)
+
+                  children = []
+                  for second_dir in second_dirs_ordered:
                       items = [
                           {'title': f['title'], 'path': f['path']}
                           for f in files_data
                           if len(f['parts']) >= 3 and f['parts'][0] == top_dir and f['parts'][1] == second_dir
                       ]
                       if items:
+                          # 使用配置中的中文标题，否则用目录名转换
+                          second_title = sub_order.get(second_dir, second_dir.replace('-', ' ').replace('_', ' ').title())
                           children.append({
-                              'title': second_dir.replace('-', ' ').replace('_', ' ').title(),
+                              'title': second_title,
                               'path': f'{top_dir}/{second_dir}',
                               'children': items
                           })
@@ -107,8 +131,8 @@ jobs:
                       if len(f['parts']) == 1 and f['parts'][0] == top_dir
                   ]
 
-                  # 使用中文分类名
-                  top_title = category_names.get(top_dir, top_dir.replace('-', ' ').replace('_', ' ').title())
+                  # 使用配置中的中文标题
+                  top_title = categories_config.get(top_dir, top_dir.replace('-', ' ').replace('_', ' ').title())
 
                   result.append({
                       'title': top_title,

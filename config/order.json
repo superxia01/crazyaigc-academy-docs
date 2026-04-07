@@ -1,0 +1,56 @@
+{
+  "introduction": {
+    "quick-start": "快速开始"
+  },
+  "foundation": {
+    "a1-basics": "AI 基础通识与边界",
+    "a2-prompt": "提示词基础与设计"
+  },
+  "prompt-engineering": {
+    "basics": "提示词基础"
+  },
+  "ai-tools": {
+    "main-tools": "主流工具"
+  },
+  "productivity": {
+    "b1-office": "办公自动化与智能辅助",
+    "b2-sales": "销售与客户沟通",
+    "b3-analytics": "数据分析与决策"
+  },
+  "creative": {
+    "c1-visual-basics": "视觉生成基础",
+    "c2-ecommerce": "电商视觉实战",
+    "c3-video": "视频与多媒体创作",
+    "c4-branding": "品牌视觉与 IP 打造"
+  },
+  "social-media": {
+    "s1-mechanism": "平台机制与算法",
+    "s2-content": "内容创作与运营",
+    "s3-monetization": "变现策略"
+  },
+  "cross-border": {
+    "k1-market": "市场调研与选品",
+    "k2-marketing": "营销推广",
+    "k3-service": "客服与售后"
+  },
+  "programming": {
+    "p1-website": "网站开发与部署",
+    "p2-automation": "自动化脚本与工作流",
+    "p3-development": "AI 应用开发"
+  },
+  "governance": {
+    "g1-strategy": "企业落地策略"
+  },
+  "monetization": {
+    "m1-business": "商业模式设计",
+    "m2-industry": "行业解决方案"
+  },
+  "openclaw": {
+    "getting-started": "入门指南",
+    "channels": "渠道配置",
+    "advanced": "高级技巧",
+    "cases": "实战案例",
+    "expert": "专家模式",
+    "config": "系统配置"
+  }
+}
